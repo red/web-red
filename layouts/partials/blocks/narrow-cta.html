@@ -1,0 +1,17 @@
+{{ $releases := getJSON "https://api.github.com/repos/red/red/releases" }}
+
+{{ $hasParams := (and (isset .Params "description") (isset .Params "link_text")) }}
+
+<section class="w-full min-h-5xs px-2 md:px-8 py-2 bg-rl-gold">
+    <div class="container mx-auto px-2 md:px-8 font-semibold flex flex-col md:flex-row justify-between">
+		{{ if $hasParams }}
+	        <span>{{ .Params.description }}</span>
+			<a href="{{ .Params.link_url }}" class="text-black no-underline dim">{{ .Params.link_text }} &rarr;</a>
+		{{ else }}
+			{{ range sort $releases "published_at" "desc" | first 1 }}
+				<span>{{ i18n "cta_narrow_heading" }}</span>
+				<a href="{{ "/download/" | relLangURL }}" class="text-black no-underline dim">{{ i18n "download" }} {{ .tag_name }} &rarr;</a>
+			{{ end }}
+		{{ end }}
+    </div>
+</section>

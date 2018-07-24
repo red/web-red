@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<div>
+    {{ partial "page-title" (dict "title" .Title "subtitle" .Params.subtitle)}}
+
+    <div class="container mx-auto mt-12 px-4 md:px-8 pb-8 flex flex-col md:flex-row items-start">
+
+        <div class="toc bg-rl-gray-lightest rounded-xl p-4 mr-8 w-64">
+            <!-- Note https://github.com/gohugoio/hugo/issues/1778 -->
+            {{ .TableOfContents }}
+        </div>
+        
+        {{ with .Content }}
+        <section class="text-grey-darker content flex-1">
+            {{ . }}
+        </section>
+        {{ end }}
+        
+    </div>
+
+    <div class="w-full mt-12">
+        {{ partial "blocks/narrow-cta" (dict "Params" (dict)) }}
+    </div>
+</div>
+
+{{ end }}

@@ -1,0 +1,173 @@
+---
+baseURL: "https://www.red-lang.org/"
+title: Red Programming Language
+languageCode: "en-us"
+metaDataFormat: yaml
+theme: "featherweight"
+pluralizeListTitles: false
+enableRobotsTXT: true
+defaultContentLanguage: "en"
+enableMissingTranslationPlaceholders: true
+paginate: 5 # Number of posts per page
+
+permalinks:
+  blog: /:section/:year/:month/:slug/
+
+taxonomies:
+  category: category
+  tags: tags
+
+outputs:
+  home:
+    - HTML
+    - JSON
+  section:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - JSON
+
+languages:
+  en:
+    LanguageName: "English"
+    params:
+      Title: "Red Language"
+      CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
+    menu:
+      main:
+        - Name: "About"
+          Weight: 2
+          Identifier: "about"
+          URL: "/about/"
+        - Name: "Documentation"
+          Weight: 3
+          Identifier: "docs"
+          URL: "https://github.com/red/red"
+        - Name: "Blog"
+          Weight: 4
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "Roadmap"
+          Weight: 5
+          Identifier: "roadmap"
+          URL: "/roadmap/"
+        - Name: "Download"
+          Weight: 6
+          Identifier: "download"
+          URL: "/download/"
+        - Name: "Getting Started"
+          Weight: 7
+          Identifier: "gettingstarted"
+          URL: "/getting-started/"
+  fr:
+    LanguageName: "Français"
+    params:
+      Title: "Red Langue"
+      CopyrightHTML: "Droits d'auteur &#xA9; 2018 FullStack Technologies Ltd"
+    blackfriday:
+      angledQuotes: true
+    menu:
+      main:
+        - Name: "À propos"
+          Weight: 2
+          Identifier: "about"
+          URL: "/about/"
+        - Name: "Documentation"
+          Weight: 3
+          Identifier: "docs"
+          URL: "https://github.com/red/red"
+        - Name: "Blog"
+          Weight: 4
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "Feuille de route"
+          Weight: 5
+          Identifier: "roadmap"
+          URL: "/roadmap/"
+        - Name: "Télécharger"
+          Weight: 6
+          Identifier: "download"
+          URL: "/download/"
+        - Name: "Commencer"
+          Weight: 7
+          Identifier: "gettingstarted"
+          URL: "/getting-started/"
+  cn:
+    LanguageName: "简体中文"
+    params:
+      Title: "Red 语言"
+      CopyrightHTML: "Copyright &#xA9; 2018 FullStack Technologies Ltd"
+    menu:
+      main:
+        - Name: "关于"
+          Weight: 2
+          Identifier: "about"
+          URL: "/about/"
+        - Name: "文件"
+          Weight: 3
+          Identifier: "docs"
+          URL: "https://github.com/red/red"
+        - Name: "博客"
+          Weight: 4
+          Identifier: "blog"
+          URL: "/blog/"
+        - Name: "路线图"
+          Weight: 5
+          Identifier: "roadmap"
+          URL: "/roadmap/"
+        - Name: "下载"
+          Weight: 6
+          Identifier: "download"
+          URL: "/download/"
+        - Name: "入门"
+          Weight: 7
+          Identifier: "gettingstarted"
+          URL: "/getting-started/"
+
+params:
+  navigation:
+    social:
+      - Name: "Reddit"
+        Weight: 1
+        Identifier: "reddit-alien"
+        URL: "https://www.reddit.com/r/redlang/"
+      - Name: "Facebook"
+        Weight: 2
+        Identifier: "facebook-square"
+        URL: "https://facebook.com"
+      - Name: "Twitter"
+        Weight: 3
+        Identifier: "twitter"
+        URL: "https://twitter.com/red_lang"
+      - Name: "Gitter"
+        Weight: 4
+        Identifier: "gitter"
+        URL: "https://gitter.im/red/red"
+      - Name: "GitHub"
+        Weight: 5
+        Identifier: "github"
+        URL: "https://github.com/red/red"
+      - Name: "Telegram"
+        Weight: 6
+        Identifier: "telegram"
+        URL: "https://t.me/redofficial"
+    ecosystem:
+      - Name: "Red Language"
+        Weight: 1
+        Identifier: "redlang"
+        URL: "https://red-lang.org"
+      - Name: "Red Foundation"
+        Weight: 2
+        Identifier: "foundation"
+        URL: "https://foundation.red-lang.org"
+      - Name: "Red ICO"
+        Weight: 3
+        Identifier: "ico"
+        URL: "https://ico.red-lang.org"
+      - Name: "Fullstack Technologies"
+        Weight: 4
+        Identifier: "fullstack"
+        URL: "https://fullstack.red-lang.org"
+---

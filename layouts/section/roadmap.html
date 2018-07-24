@@ -1,0 +1,58 @@
+{{ define "main" }}
+
+<div>
+    {{ partial "page-title" (dict "title" .Title "subtitle" .Params.subtitle)}}
+
+    {{ with .Content }}
+        <section class="container mx-auto mt-12 px-4 md:px-8 pb-8 text-grey-darker content">
+            {{ . }}
+        </section>
+    {{ end }}
+        
+    <section class="container mx-auto max-w-xl mt-12 px-4 md:px-8 pb-8 text-grey-darker content">
+        {{ range .Params.roadmap_entries }}
+            <div>
+                <h3>{{ .section | markdownify }}</h3>
+                <ul class="list-reset">
+                    {{ range .items }}
+                    <li class="block w-full min-h-5xs flex flex-col md:flex-row items-start mb-2 md:mb-6">
+                        <div class="md:w-64 md:pr-2">
+                            {{- .item | markdownify }}
+                        </div>
+                        <div class="w-full flex-grow">
+                            <div class="text-white bg-rl-gray rounded-xl">
+                                <div class="bg-green-gradient rounded-xl" style="width: {{ .percentage }}%;">
+                                    <div class="h-8 pl-4 leading-loose">{{ .percentage }}%</div>
+                                </div>
+                            </div>
+                            {{ with .sub_items }}
+                                <ul class="list-reset mobile:pl-12 mt-8">
+                                    {{ $len := (len .) }}
+                                    {{ range $index, $element := . }}
+                                    <li class="block w-full min-h-5xs flex flex-col md:flex-row items-start{{ if ne (add $index 1) $len }} mb-2 md:mb-6{{ end }}">
+                                        <div class="md:w-48 md:pr-2">
+                                            {{- .item | markdownify }}
+                                        </div>
+                                        <div class="w-full flex-grow text-white bg-rl-gray rounded-xl">
+                                            <div class="bg-green-gradient rounded-xl" style="width: {{ .percentage }}%;">
+                                                <div class="h-8 pl-4 leading-loose">{{ .percentage }}%</div>
+                                            </div>
+                                        </div>
+                                    {{ end }}
+                                </ul>
+                            {{ end }}
+                        </div>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        {{ end }}
+    </section>
+
+    <div class="w-full mt-12">
+        {{ partial "blocks/narrow-cta" (dict "Params" (dict)) }}
+    </div>
+        
+</div>
+
+{{ end }}

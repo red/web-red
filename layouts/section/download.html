@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div>
+    {{ partial "page-title" (dict "title" .Title "subtitle" .Params.subtitle)}}
+
+    <section class="container mx-auto mt-12 px-4 md:px-8 pb-8 flex flex-col items-center">
+        <div class="card max-w-lg px-4 md:px-8 py-8">
+            <div class="">
+                <h3 class="font-semibold text-2xl text-rl-gray rl-l-title-underline">All platforms, latest stable</h3>
+                <p class="text-grey-darker">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus eum quibusdam quas
+                    voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam quisquam nobis
+                    tempore sed dicta voluptate eaque eius?</p>
+            </div>
+        </div>
+    </section>
+
+    {{ with .Content }}
+        <section class="container mx-auto mt-12 px-2 md:px-8 pb-8 text-grey-darker content">
+            {{ . }}
+        </section>
+    {{ end }}
+    
+</div>
+
+{{ end }}
