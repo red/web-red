@@ -5,13 +5,13 @@
 
     <div class="container mx-auto mt-12 px-4 md:px-8 pb-8 flex flex-col md:flex-row items-start">
 
-        <div class="toc bg-rl-gray-lightest rounded-xl p-4 mr-8 w-64">
+        <div class="toc bg-rl-gray-lightest rounded-xl p-4 mr-8 w-64 flex-none">
             <!-- Note https://github.com/gohugoio/hugo/issues/1778 -->
             {{ .TableOfContents }}
         </div>
         
         {{ with .Content }}
-        <section class="text-grey-darker content flex-1">
+        <section class="text-grey-darker content max-w-full">
             {{ . }}
         </section>
         {{ end }}
