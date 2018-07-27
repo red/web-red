@@ -15,11 +15,11 @@
     {{- end -}}
 
 
-    {{ with .Content }}
-        <section class="container mx-auto mt-12 px-4 md:px-8 pb-8 text-rl-gray content">
-            {{ . }}
-        </section>
-    {{ end }}
+	{{ with .Content }}
+		<section class="container mx-auto mt-12 px-4 md:px-8 pb-8 text-grey-darker content">
+			{{ . }}
+		</section>
+	{{ end }}
 
     <div class="bg-sun">
         {{- range .Params.blocks -}}

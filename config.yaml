@@ -160,7 +160,7 @@ params:
       - Name: "Red Language"
         Weight: 1
         Identifier: "redlang"
-        URL: "https://red-lang.org"
+        URL: "https://www.red-lang.org"
       - Name: "Red Foundation"
         Weight: 2
         Identifier: "foundation"
@@ -172,5 +172,5 @@ params:
       - Name: "Fullstack Technologies"
         Weight: 4
         Identifier: "fullstack"
-        URL: "https://fullstack.red-lang.org"
+        URL: "https://fullstack.red"
 ---

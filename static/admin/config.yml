@@ -1,0 +1,162 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: "static/images" # Media files will be stored in the repo under static/images
+public_folder: "/images" # The src attribute for uploaded media will begin with /images
+
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home_en"
+        label: "Home (English)"
+        file: "content/en/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Code Sample Heading", name: "code_sample_heading", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "home_fr"
+        label: "Home (French)"
+        file: "content/fr/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Code Sample Heading", name: "code_sample_heading", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "home_cn"
+        label: "Home (Chinese)"
+        file: "content/cn/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Code Sample Heading", name: "code_sample_heading", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "about_en"
+        label: "About (English)"
+        file: "content/en/about/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "about_fr"
+        label: "About (French)"
+        file: "content/fr/about/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "about_cn"
+        label: "About (Chinese)"
+        file: "content/cn/about/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap_en"
+        label: "Roadmap (English)"
+        file: "content/en/roadmap/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap_fr"
+        label: Rroadmap (French)"
+        file: "content/fr/roadmap/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "roadmap_cn"
+        label: "Roadmap (Chinese)"
+        file: "content/cn/roadmap/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "download_en"
+        label: "Download (English)"
+        file: "content/en/download/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "download_fr"
+        label: "Download (French)"
+        file: "content/fr/download/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "download_cn"
+        label: "Download (Chinese)"
+        file: "content/cn/download/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "getting-started_en"
+        label: "Getting Started (English)"
+        file: "content/en/getting-started/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "getting-started_fr"
+        label: "Getting Started (French)"
+        file: "content/fr/getting-started/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+      - name: "getting-started_cn"
+        label: "Getting Started (Chinese)"
+        file: "content/cn/getting-started/_index.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Subtitle", name: "subtitle", widget: "string" }
+          - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog_en"
+    label: "Blog (English)"
+    folder: "content/en/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Hero Type", name: "hero_type", widget: "select", options: ["image", "video"] }
+      - { label: "Hero Image", name: "hero_src", widget: "image", default: "http://via.placeholder.com/500x280", required: false }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog_fr"
+    label: "Blog (French)"
+    folder: "content/fr/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Hero Type", name: "hero_type", widget: "select", options: ["image", "video"] }
+      - { label: "Hero Image", name: "hero_src", widget: "image", default: "http://via.placeholder.com/500x280", required: false }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "blog_cn"
+    label: "Blog (Chinese)"
+    folder: "content/cn/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Slug", name: "slug", widget: "string", required: false }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Hero Type", name: "hero_type", widget: "select", options: ["image", "video"] }
+      - { label: "Hero Image", name: "hero_src", widget: "image", default: "http://via.placeholder.com/500x280", required: false }
+      - { label: "Category", name: "category", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list", allow_add: true, required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
