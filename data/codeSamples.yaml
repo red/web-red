@@ -1,0 +1,54 @@
+- code: |
+    do-it: func [a b c] [
+        foreach item a [
+            print rejoin [item "is a great thing!"]
+        ]
+    ]
+  description:
+    - lang: en
+      title: Example 1
+      body: >
+        This is example 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus
+        eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam 
+        quisquam nobis tempore sed dicta voluptate eaque eius?
+    - lang: fr
+      title: title here
+      body: >
+        Example 1 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 1 in Chinese
+- code: |
+    parse charset ; add more later
+  description:
+    - lang: en
+      title: Example 2
+      body: >
+        This is example 2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus
+        eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam 
+        quisquam nobis tempore sed dicta voluptate eaque eius?
+    - lang: fr
+      title: title here
+      body: >
+        Example 2 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 2 in Chinese
+- code: |
+    another example
+  description:
+    - lang: en
+      title: Example 3
+      body: >
+        This is example 3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus
+        eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis.
+    - lang: fr
+      title: title here
+      body: >
+        Example 3 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 3 in Chinese

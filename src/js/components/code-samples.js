@@ -31,30 +31,7 @@ const codeSamples = Vue.component('code-samples', {
 	data() {
 		return {
 			selectedSampleIdx: 0,
-			samples: [
-				{
-					title: 'Example 1',
-					description:
-						'This is example 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam quisquam nobis tempore sed dicta voluptate eaque eius?',
-					source: `do-it: func [a b c] [
-    foreach item a [
-        print rejoin [item "is a great thing!"]
-    ]
-]`
-				},
-				{
-					title: 'Example 2',
-					description:
-						'This is example 2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam quisquam nobis tempore sed dicta voluptate eaque eius?',
-					source: 'parse charset ; add more here'
-				},
-				{
-					title: 'Example 3',
-					description:
-						'This is example 3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam quisquam nobis tempore sed dicta voluptate eaque eius?',
-					source: 'another sample'
-				}
-			]
+			samples: window.codeSamples
 		};
 	},
 	computed: {

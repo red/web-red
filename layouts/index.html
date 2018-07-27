@@ -55,6 +55,22 @@
             {{- if eq .template "action-feature" -}}{{ partial "blocks/action-feature" (dict "Params" .) }}{{- end -}}
             {{- if eq .template "narrow-cta" -}}{{ partial "blocks/narrow-cta" (dict "Params" .) }}{{- end -}}
         {{- end -}}
-    </div>
+	</div>
+	
+	<script>
+		{{ $list := .Site.Data.codeSamples -}}
+		{{ $length := (len $list) -}}
+		window.codeSamples = [
+			{{ range $index, $element := $list -}}
+			{
+				{{ range where .description "lang" $.Site.Home.Lang -}}
+				title: {{ .title }},
+				description: {{ .body }},
+				{{ end -}}
+				source: {{ .code }}
+			}{{ if ne (add $index 1) $length }},{{ end }}
+			{{ end }}
+		];
+	</script>
 
 {{ end }}
