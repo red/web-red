@@ -60,7 +60,7 @@ collections:
           - { label: "Subtitle", name: "subtitle", widget: "string" }
           - { label: "Body", name: "body", widget: "markdown" }
       - name: "roadmap_fr"
-        label: Rroadmap (French)"
+        label: "Roadmap (French)"
         file: "content/fr/roadmap/_index.md"
         fields:
           - { label: "Title", name: "title", widget: "string" }
