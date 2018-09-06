@@ -5,9 +5,9 @@ blocks:
   - template: "hero"
     heading: "The World's First Full-Stack Programming Language"
     content: |-
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus eum quibusdam quas
-        voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam quisquam nobis
-        tempore sed dicta voluptate eaque eius?
+        Red’s ambitious goal is to build the world’s first full-stack language,
+        a language you can use from system programming tasks, up to high-level
+        scripting through DSL.
     button_text: "Download"
     button_url: "/download/"
     image_position: "right"
