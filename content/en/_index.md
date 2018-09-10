@@ -5,7 +5,7 @@ blocks:
   - template: "hero"
     heading: "The World's First Full-Stack Programming Language"
     content: |-
-        Red’s ambitious goal is to build the world’s first full-stack language,
+        Red's ambitious goal is to build the world's first full-stack language,
         a language you can use from system programming tasks, up to high-level
         scripting through DSL.
     button_text: "Download"
