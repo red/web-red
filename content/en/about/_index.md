@@ -4,8 +4,6 @@ subtitle: >-
   Red is a powerful programming language, inspired by REBOL and built to
   empower.
 ---
-`<align="center>`
-
 ![](/images/sampleheader.jpg)
 
 Red’s ambitious goal is to build the world’s first full-stack language, a language you can use from system programming tasks, up to high-level scripting through domain-specific dialects. You've probably heard of the term "Full-Stack Developer." But what is a full-stack language, exactly?
