@@ -164,7 +164,7 @@ params:
       - Name: "Red Foundation"
         Weight: 2
         Identifier: "foundation"
-        URL: "https://foundation.red-lang.org"
+        URL: "https://beta.foundation.red-lang.org/"
       - Name: "Red ICO"
         Weight: 3
         Identifier: "ico"
