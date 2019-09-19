@@ -8,7 +8,7 @@ tags:
   - android
 ---
 
-Here we are in the interim.
+Let's start over.
 
 ### Sub header
 
