@@ -165,10 +165,6 @@ params:
         Weight: 2
         Identifier: "foundation"
         URL: "https://beta.foundation.red-lang.org/"
-      - Name: "Red ICO"
-        Weight: 3
-        Identifier: "ico"
-        URL: "https://ico.red-lang.org"
       - Name: "Fullstack Technologies"
         Weight: 4
         Identifier: "fullstack"
