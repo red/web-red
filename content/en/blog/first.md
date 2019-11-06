@@ -1,14 +1,14 @@
 ---
-date: 2017-04-10T15:02:07-05:00
 title: first
+date: 2017-04-10T20:02:07.000Z
 author: Gregg Irwin
+hero_type: image
 category: meeting
 tags:
   - blockchain
   - android
 ---
-
-Let's start over. Again.
+Let's start over. Again and again.
 
 ### Sub header
 
