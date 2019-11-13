@@ -1,13 +1,32 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@lucindamichele 
+0
+03lucindamichele/web-red
+forked from red/web-red
+ Code Pull requests 0 Projects 0 Wiki Security Insights Settings
+web-red/content/en/_index.md
+@lucindamichele lucindamichele Update _index.md
+ab93de7 38 minutes ago
+@lucindamichele@x8x@rebolyte@greggirwin
+40 lines (39 sloc)  1.88 KB
+  
 ---
 title: Red Programming Language
-code_sample_heading: A Language that Speaks for Itself
+code_sample_heading: A Language That Speaks For Itself
 blocks:
   - template: "hero"
     heading: "The World's First Full-Stack Programming Language"
     content: |-
-        Red's ambitious goal is to build the world's first full-stack language,
-        a language you can use from system programming tasks, up to high-level
-        scripting through DSL.
+        Red's ambitious goal is to build the world's first full-stack language:
+        one you can use from system programming tasks up to high-level
+        scripting, using domain-specific, homoiconic language.
     button_text: "Download"
     button_url: "/download/"
     image_position: "right"
@@ -18,7 +37,7 @@ blocks:
       <iframe src="https://www.youtube.com/embed/SGjVUfiZBLA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   - template: "media-feature"
     heading: "Abstraction on Every Level"
-    content: "Proin at finibus ex. *Duis sed nisi lectus.* Mauris interdum ac nunc quis pharetra. Vivamus rhoncus porttitor ante."
+    content: "Red is more like a "language construction set" than simply "a language." Whether you’re writing a device driver, a platform-native GUI application, or a shared library, Red's flexibility lets you use a common syntax to code at the right level of abstraction for the task."
     image: "http://via.placeholder.com/500x280"
     image_position: "right"
   - template: "media-feature"
@@ -37,3 +56,16 @@ blocks:
     bg_dark: true
   - template: "narrow-cta"
 ---
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Revert lucindamichele merged commit 826c418 into master now
