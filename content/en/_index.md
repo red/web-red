@@ -1,22 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@lucindamichele 
-0
-03lucindamichele/web-red
-forked from red/web-red
- Code Pull requests 0 Projects 0 Wiki Security Insights Settings
-web-red/content/en/_index.md
-@lucindamichele lucindamichele Update _index.md
-ab93de7 38 minutes ago
-@lucindamichele@x8x@rebolyte@greggirwin
-40 lines (39 sloc)  1.88 KB
-  
 ---
 title: Red Programming Language
 code_sample_heading: A Language That Speaks For Itself
@@ -56,16 +37,3 @@ blocks:
     bg_dark: true
   - template: "narrow-cta"
 ---
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Revert lucindamichele merged commit 826c418 into master now
