@@ -25,13 +25,13 @@ blocks:
   - template: "media-feature"
     heading: "RED Tokens on the Blockchain"
     content: |-
-      RED is your tool for interacting with the community of smart contracts and decentralized apps, and is being designed to provide ease of use for cross-chain transactions. Our goal is to empower users by creating a Decentralized Autonomous Organization (DAO) enabled by our ERC-20-compliant utility token, the Red Community Token (RED). These tokens are slated to provide privileges like voting rights, bug fixes, and microtipping. We hope to build a new economic model to better support open source project communities, which may be used later by other open source teams. 
+      Red is your tool for interacting with the community of smart contracts and decentralized apps, and is being designed to provide easy cross-chain transactions. We hope to build a new economic model to better support open source project communities, which may be used later by other open source teams. Using a Decentralized Autonomous Organization enabled by our ERC-20-compliant Red Community Token (RED), these tokens are slated to provide privileges like voting rights, bug fixes, and microtipping. 
     image: "http://via.placeholder.com/500x280"
     image_position: "left"
   - template: "action-feature"
     heading: "The Red Foundation is Making It Easier to Build Amazing Products."
     content: |-
-      The Red DSL for cross-chain programming will compile directly to the virtual machine and will facilitate the passage of data between blockchains. Red's domain-specific languages and ease of use make it a revolutionary new tool for the decentralized web! Safer, and therefore a bit more constrained, than Solidity, its few limitations eliminate a LOT of possible attack vectors. Want the limitations off? We have a high-level DSL for higher safety, close to the level provided by templates, with still greater flexibility. 
+      Red's domain-specific languages and ease of use make it a revolutionary new tool for the decentralized web! Less vulnerable to exploit than Solidity, its few limitations eliminate a LOT of possible attack vectors. Want the limitations off? We have a high-level DSL that still provides increased safety, close to the level provided by templates, with greater flexibility. 
     image: "http://via.placeholder.com/500x280"
     image_position: "right"
     button_text: "Learn More"
