@@ -20,6 +20,9 @@ blocks:
     heading: "Red Is Easy"
     content: |-
       It uses human-friendly syntax, like 31-Jan-2018/16:00+8:00 for dates, which, for example, is 1517385600 in epoch seconds, for those of you wearing an epoch seconds watch. Its interactive read-eval-print loop allows you to construct your own self-informing code, checking your work as you go, and offers a rich set of built-in datatypes (over 50).
+    image: "http://via.placeholder.com/500x280"
+    image_position: "left"
+    image_shadow: true
   - template: "grid-list"
     num_cols: 4
     grid_items:
