@@ -3,25 +3,25 @@ title: About
 subtitle: Red is a powerful programming language, inspired by REBOL and built to empower.
 blocks:
   - template: "media-feature"
-    heading: "Feature 1"
-    content: |
-      Nam congue rutrum lorem, eget porta lectus placerat vitae. Donec faucibus lacus vitae est vestibulum, et pharetra sem accumsan. Fusce aliquam lectus at nulla varius efficitur. Donec in accumsan nisi. Etiam nec tempus ante, ac blandit nisl. Donec malesuada volutpat nisi, at consequat dui venenatis eget. Fusce dapibus nisi ut hendrerit lobortis. Etiam viverra faucibus nibh, nec vehicula tortor vulputate et.
+    heading: "Red Is Programming for Humans"
+    content: |-
+      Red is a full-stack (metal to meta), open-source toolchain. It’s a relatively new, general-to-granular programming language created by Nenad Rakocevic, developed as an open-source project since 2011. 
 
-      Lorem lorem lorem.
+By full stack, we mean you can use one common language base to write anything: a device driver, a shared library, a platform-native GUI application, a client, an OS, decentralized apps...anything you can envision.
     image: "http://via.placeholder.com/500x280"
     image_position: "left"
     image_shadow: true
   - template: "media-feature"
-    heading: "Feature 2"
+    heading: "Lean, Nimble and Compact"
     content: |-
-      Integer ut aliquam est. Vestibulum pretium sit amet tortor vel sagittis. Mauris quis ex nisl. Nam vel interdum tortor. Aenean auctor metus erat, non congue nisi tempus at. Pellentesque convallis lacus nulla, nec ullamcorper velit pharetra eu. Suspendisse dapibus sit amet nisl gravida tincidunt. Ut id aliquam diam. Sed dui ex, tristique eu diam nec, tincidunt ullamcorper urna. Aliquam libero nulla, convallis nec mauris nec, euismod finibus ipsum.
+      Other languages talk about having "one tool to rule them all". Red has that mindset too, pushed to the limit - it's a single executable that takes in your source files on any platform, and produces a packaged binary for any platform, from any other. The tool doesn't depend on anything besides what came with your OS...shipping as a single executable that's smaller than a megabyte.
     image: "http://via.placeholder.com/500x280"
     image_position: "right"
     image_shadow: true
   - template: "media-feature"
-    heading: "How Many Features, You Ask?"
+    heading: "Red Is Easy"
     content: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices magna in vehicula imperdiet. Nunc pellentesque ligula et vehicula elementum. Suspendisse faucibus fringilla neque, ut lacinia erat pulvinar sit amet. Aliquam vel ex erat. Nulla ultrices tellus enim. Proin at tristique tortor. Nullam ut tellus eu ipsum tristique pretium dictum vitae ex. Suspendisse euismod finibus odio, vel aliquet lorem. Proin condimentum id tortor in eleifend. Suspendisse varius euismod viverra. Phasellus sit amet nisi eget nulla tincidunt euismod nec eget leo. Curabitur ornare quam mattis magna pharetra dapibus. Aliquam placerat diam eu erat lobortis laoreet. Nunc eleifend convallis neque non mollis. Curabitur condimentum diam ante, sed laoreet quam rutrum in.
+      It uses human-friendly syntax, like 31-Jan-2018/16:00+8:00 for dates, which, for example, is 1517385600 in epoch seconds, for those of you wearing an epoch seconds watch. Its interactive read-eval-print loop allows you to construct your own self-informing code, checking your work as you go, and offers a rich set of built-in datatypes (over 50).
   - template: "grid-list"
     num_cols: 4
     grid_items:
