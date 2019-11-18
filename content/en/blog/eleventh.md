@@ -6,7 +6,7 @@ category: meeting
 tags:
   - blockchain
 hero_type: image
-hero_src: /images/swissarmy500x280.jpg
+hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 <h3 style="text-align: left;">
 What made the fast-lexer branch a priority?</h3>
