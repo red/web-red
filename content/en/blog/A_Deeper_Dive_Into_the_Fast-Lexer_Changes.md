@@ -1,10 +1,10 @@
 ---
-date: 2017-05-20T20:01:17-05:00
-title: Title goes here
-author: Gregg Irwin
-category: meeting
+date: 2019-10-30T20:01:17-05:00
+title: A Deeper Dive Into the Fast-Lexer Changes
+author: Lucinda Knapp
+category: update
 tags:
-  - blockchain
+  - lexer
 hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
