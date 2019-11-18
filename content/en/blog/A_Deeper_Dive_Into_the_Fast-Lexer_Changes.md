@@ -37,9 +37,7 @@ Evaluating the state of the art in fast parsers for programming languages, he fo
 <div style="text-align: left;">
 <br /></div>
 <div style="text-align: left;">
-Red's new R/S lexer is half the size of Rebol's, far simpler, with more maintainable code, and it performs at similar speeds (sometimes a bit faster, sometimes a bit slower). That is a fantastic result, because it means that with an optimizing backend (Red/Pro), our lexer will be 4-8 times faster than R3's. It should then be possible to load gigabytes of Red data in memory in just a few</div>
-<div style="text-align: left;">
-seconds (using the future 64-bit version). 😉</div>
+Red's new R/S lexer is half the size of Rebol's, far simpler, with more maintainable code, and it performs at similar speeds (sometimes a bit faster, sometimes a bit slower). That is a fantastic result, because it means that with an optimizing backend (Red/Pro), our lexer will be 4-8 times faster than R3's. It should then be possible to load gigabytes of Red data in memory in just a few seconds (using the future 64-bit version). 😉</div>
 <div style="text-align: left;">
 <br /></div>
 <div style="text-align: left;">
