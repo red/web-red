@@ -8,7 +8,9 @@ blocks:
         Red is building a full-stack, "metal to meta", open-source toolchain. <br><br>
         
         
-        By full-stack, we mean one common language base to code anything, from system programming tasks up to high-level scripting. A device driver, a library, a platform-native GUI tool, an OS, decentralized apps ... Red writes anything you can imagine, using domain-specific, homoiconic language.
+        By full-stack, we mean one common language base to code anything, from system programming tasks up to high-level scripting. 
+        
+        <br><br>A device driver, a library, a platform-native GUI tool, an OS, decentralized apps ... Red writes anything you can imagine, using domain-specific, homoiconic language.
     button_text: "Download"
     button_url: "/download/"
     image_position: "right"
