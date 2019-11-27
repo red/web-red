@@ -23,7 +23,7 @@ blocks:
     heading: "Abstraction on Every Level"
     content: |-
       Red is more like a "language construction set" than simply "a language." Whether you’re writing a device driver, a platform-native GUI application, or a shared library, Red's flexibility lets you use a common syntax to code at the right level of abstraction for the task.
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/swissarmy500x280.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "RED Tokens on the Blockchain"
