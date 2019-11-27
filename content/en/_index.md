@@ -5,7 +5,8 @@ blocks:
   - template: "hero"
     heading: "Red: The World's First Full-Stack Programming Language"
     content: |-
-        Red is building a full-stack, "metal to meta", open-source toolchain. By full-stack, we mean one common language base to write anything, from system programming tasks up to high-level scripting. A device driver, a shared library, a platform-native GUI application, a client, an OS, decentralized apps ... code that works for anything you can imagine, using domain-specific, homoiconic language.
+        Red is building a full-stack, "metal to meta", open-source toolchain. 
+        By full-stack, we mean one common language base to write anything, from system programming tasks up to high-level scripting. A device driver, a library, a platform-native GUI tool, an OS, decentralized apps ... Red writes anything you can imagine, using domain-specific, homoiconic language.
     button_text: "Download"
     button_url: "/download/"
     image_position: "right"
