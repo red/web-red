@@ -11,8 +11,7 @@ tags:
   - opinion
 hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
----	
-
+---
 <i>The original commentary was posted in Red's Gitter channel, <a href="https://gitter.im/red/red?at=5dc32b09ef84ab37860a9b11">here</a>, by Gregg Irwin, one of our core team members, in response to various requests for the ability to create new datatypes in Red.</i><br />
 <i><br /></i>
 <i>As a writer, Red has always appealed to me because of its flexibility; but, of course, "the <a href="https://youtu.be/08MqYvU-yuM">[lexicon] devil</a> is in the details," as the idiom goes (okay, I edited that idiom a little, but it was too cool a link to pass up). It means the more specific we try to be, the more challenges and limitations we encounter, and we can lose some of the amazing versatility of the language. On the other hand, precision and refinement--the "exact right word at the exact right time," can powerfully enhance a language's utility. The dynamic tension between what he calls "generality and specificity, human friendliness and artifice," in the text below, can be an energetic ebb and flow that serves to strengthen our language, to make it more robust.&nbsp;</i><br />
