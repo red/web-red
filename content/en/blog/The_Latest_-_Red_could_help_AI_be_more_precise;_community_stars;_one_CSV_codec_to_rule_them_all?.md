@@ -1,10 +1,15 @@
 ---
-date: 2017-05-01T20:01:17-05:00
-title: Title goes here
-author: Gregg Irwin
+date: 2019-09-15T20:01:17-05:00
+title: The Latest - Red could help AI be more precise; community stars; one CSV codec to rule them all?
+author: Lucinda Knapp
 category: update
 tags:
-  - blockchain
+  - CSV
+  - codec
+  - AI
+  - contributors
+  - Github
+  - stars
 hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
