@@ -3,6 +3,7 @@ title: GPIO Port for Raspberry Pi
 date: 2019-07-18T20:02:07.000Z
 author: Nenad Rakocevic
 hero_type: image
+hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 category: update
 tags:
   - Raspberry Pi
