@@ -27,7 +27,7 @@
     ]
   description:
     - lang: en
-      title: Sample: VID Dialect
+      title: Sample - VID Dialect
       body: >
         Smart merging of a style's actors with the actors of a particular face instance was introduced 
         in the VID dialect.
