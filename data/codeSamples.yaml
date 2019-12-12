@@ -27,11 +27,9 @@
     ]
   description:
     - lang: en
-      title: Example 2
+      title: Sample: VID Dialect
       body: >
-        This is example 2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus
-        eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam 
-        quisquam nobis tempore sed dicta voluptate eaque eius?
+        Smart merging of a style's actors with the actors of a particular face instance was introduced in the&nbsp;<a href="https://www.red-lang.org/2016/03/060-red-gui-system.html">VID dialect</a>
     - lang: fr
       title: title here
       body: >
