@@ -29,7 +29,8 @@
     - lang: en
       title: Sample: VID Dialect
       body: >
-        Smart merging of a style's actors with the actors of a particular face instance was introduced in the&nbsp;<a href="https://www.red-lang.org/2016/03/060-red-gui-system.html">VID dialect</a>
+        Smart merging of a style's actors with the actors of a particular face instance was introduced 
+        in the VID dialect.
     - lang: fr
       title: title here
       body: >
