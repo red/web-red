@@ -20,7 +20,12 @@
       body: > 
         Example 1 in Chinese
 - code: |
-    parse charset ; add more later
+        style my-button: base
+        on-down [face/color: face/color / 2 do-actor face event 'click]
+        on-up   [face/color: face/color * 2]
+
+    my-button "Say hi!" red on-click [print "hi"]
+]
   description:
     - lang: en
       title: Example 2
