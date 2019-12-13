@@ -1,6 +1,6 @@
 ---
 title: Roadmap
-subtitle: "This is the current roadmap for Red 1.0. Please find a more detailed roadmap on our [Trello board](https://trello.com/b/FlQ6pzdB/red-tasks-overview)."
+subtitle: "This is the current roadmap for Red 1.0. You can find a more detailed roadmap on our [Trello board](https://trello.com/b/FlQ6pzdB/red-tasks-overview)."
 roadmap_entries:
   - section: "Bootstrap"
     items:
