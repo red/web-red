@@ -12,7 +12,7 @@ tags:
   - testers
   - series evolution
 hero_type: image
-hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
+hero_src: /images/red_holiday.jpg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 
 <i>Welcome to December, friends of Red. It's an intent and focused time of year as we wind down 2019, and the core team is making important moves (sometimes literally!) to set us up for an ambitious 2020. But first, here are just a few things that happened in November.</i><br />
