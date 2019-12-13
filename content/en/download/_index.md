@@ -1,6 +1,6 @@
 ---
 title: Download
-subtitle: Your world is about to change. Welcome to the best programming language in the world.
+subtitle: Your world is about to change. Welcome to Red.
 ---
 
 (*) For Linux 64-bit distros, you need to install 32-bit supporting libraries. So, for Debian-based distros, install them using:
