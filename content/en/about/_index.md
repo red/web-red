@@ -6,7 +6,7 @@ blocks:
     heading: "Red Is Programming for Humans"
     content: |-
       Red is a full-stack (metal to meta), open-source toolchain. It's a relatively new, general-to-granular programming language created by Nenad Rakocevic, developed as an open-source project since 2011. By full stack, we mean you can use one common language base to write anything: a device driver, a shared library, a platform-native GUI application, a client, an OS, decentralized apps...anything you can envision.
-    image: "/images/crouching_heroine_bg_500x280.jpg"
+    image: "/images/redlang_heroine.jpg"
     image_position: "left"
     image_shadow: true
   - template: "media-feature"
