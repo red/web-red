@@ -3,7 +3,7 @@ title: About
 subtitle: Red is a powerful programming language, inspired by REBOL and built to empower.
 blocks:
   - template: "media-feature"
-    heading: "Red Is Programming for Humans"
+    heading: "Red Can Do It All"
     content: |-
       Red is a full-stack (metal to meta), open-source toolchain. It's a relatively new, general-to-granular programming language created by Nenad Rakocevic, developed as an open-source project since 2011. By full stack, we mean you can use one common language base to write anything: a device driver, a shared library, a platform-native GUI application, a client, an OS, decentralized apps...anything you can envision.
     image: "/images/redlang_heroine_planet2.jpg"
@@ -17,7 +17,7 @@ blocks:
     image_position: "right"
     image_shadow: true
   - template: "media-feature"
-    heading: "Red Is Easy"
+    heading: "Red Makes Life Easy"
     content: |-
       It uses human-friendly syntax, like 31-Jan-2018/16:00+8:00 for dates, which, for example, is 1517385600 in epoch seconds, for those of you wearing an epoch seconds watch. Its interactive read-eval-print loop allows you to construct your own self-informing code, checking your work as you go, and offers a rich set of built-in datatypes (over 50).
     image: "http://via.placeholder.com/500x280"
