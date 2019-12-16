@@ -35,7 +35,7 @@ blocks:
     heading: "The Red Foundation is Making It Easier to Build Amazing Products."
     content: |-
       Red's domain-specific languages and ease of use make it a revolutionary new tool for the decentralized web! Less vulnerable to exploit than Solidity, its few limitations eliminate a LOT of possible attack vectors. Want the limitations off? We have a high-level DSL that still provides increased safety, close to the level provided by templates, with greater flexibility. 
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/mars_city.jpg"
     image_position: "right"
     button_text: "Learn More"
     button_url: "https://foundation.red-lang.org"
