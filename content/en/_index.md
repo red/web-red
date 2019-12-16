@@ -29,7 +29,7 @@ blocks:
     heading: "RED Tokens on the Blockchain"
     content: |-
       Red is your tool for interacting with the community of smart contracts and decentralized apps, and is being designed to provide easy cross-chain transactions. We hope to build a new economic model to better support open source project communities, which may be used later by other open source teams. Using a Decentralized Autonomous Organization enabled by our ERC-20-compliant Red Community Token (RED), these tokens are slated to provide privileges like voting rights, bug fixes, and microtipping. 
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/mars_scape.jpg"
     image_position: "left"
   - template: "action-feature"
     heading: "The Red Foundation is Making It Easier to Build Amazing Products."
