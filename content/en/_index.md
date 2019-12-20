@@ -36,6 +36,7 @@ blocks:
       how it's done. There's one for writing GUIs, another for vector drawing,
       a PEG-like parsing dialect, and even Red/System, the system (C) level
       language is a dialect.
+      
     image: "/images/swissarmy500x280.jpg"
     image_position: "right"
   - template: "media-feature"
@@ -53,6 +54,7 @@ blocks:
       Solidity, it eliminates many attack vectors. Want the limitations off?
       C3 can still provide increased safety, close to that provided by
       templates, but with greater flexibility.
+      
     image: "/images/mars_scape.jpg"
     image_position: "left"
   - template: "action-feature"
@@ -62,6 +64,7 @@ blocks:
       and we hope to do more in the future. Bounties, not just for bugs, but
       documentation, testing, and even community support. Much of this will be
       facilitated through tokenomics on the blockchain. It's a brave new world.
+      
     content: |-
     image: "/images/mars_city.jpg"
     image_position: "right"
