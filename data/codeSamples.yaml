@@ -10,9 +10,9 @@
       title: Example 1
       body: >
         Two canonical GUI examples: a counter, and a temp converter.
-        
+        <br>
         Yes, these are both fully functional GUI programs.
-        
+        <br>
         They should be hard to understand, what with the cryptic
         names and lack of comments.
     - lang: fr
