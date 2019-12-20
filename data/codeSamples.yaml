@@ -13,11 +13,6 @@
 	        form round/to fn t .01
 	    ][""]
     ]
-    view [
-	    ; Use key-up because on-change doesn't detect event cycles
-	    tc: field on-key-up [t-change tc tf :c-to-f] text "Celsius ="   
-	    tf: field on-key-up [t-change tf tc :f-to-c] text "Farenheight"
-    ]
   description:
     - lang: en
       title: Example 1
