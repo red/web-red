@@ -1,16 +1,29 @@
 - code: |
-    do-it: func [a b c] [
-        foreach item a [
-            print rejoin [item "is a great thing!"]
-        ]
+    ;-- Counter
+    view [txt: text data 0  button "Count" [txt/data: txt/data + 1]]
+    ;-- Temperature Converter
+    c-to-f: func [t][t * (9.0 / 5.0) + 32.0]
+    f-to-c: func [t][t - 32.0 * (5.0 / 9.0)]
+    t-change: function [in-face out-face fn][
+	    out-face/text: either number? t: load in-face/text [
+	        form round/to fn t .01
+	    ][""]
+    ]
+    view [
+	    ; Use key-up because on-change doesn't detect event cycles
+	    tc: field on-key-up [t-change tc tf :c-to-f] text "Celsius ="   
+	    tf: field on-key-up [t-change tf tc :f-to-c] text "Farenheight"
     ]
   description:
     - lang: en
       title: Example 1
       body: >
-        This is example 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus
-        eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis, laboriosam 
-        quisquam nobis tempore sed dicta voluptate eaque eius?
+        Two canonical GUI examples: a counter, and a temp converter.
+        
+        Yes, these are both fully functional GUI programs.
+        
+        They should be hard to understand, what with the cryptic
+        names and lack of comments.
     - lang: fr
       title: title here
       body: >
@@ -40,13 +53,26 @@
       body: > 
         Example 2 in Chinese
 - code: |
-    another example
+    data: [1 2.3 4% 5x6 07-Aug-2019 #"A" 12:34:56 0.0.255 127.0.0.1]
+    foreach value data [print [mold type? value tab value + 1]]
+
+    data: ["text" %file http://www.red-lang.org pr@red-lang.org <you're it>]
+    foreach value data [print [mold type? value tab append value "/test"]]
+
+    data: [
+        Red #no-issues /refined  append/dup copy "" #"x" 5
+        blk: [a: 1]  key: 'a  blk/:key  blk/1
+        (2 + 3) obj/method-or-attr 
+    ]
+    foreach value data [print [mold type? value tab mold :value]]
   description:
     - lang: en
-      title: Example 3
+      title: Datatypes galore
       body: >
-        This is example 3. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum temporibus
-        eum quibusdam quas voluptatum reiciendis optio ipsa nulla maxime dignissimos debitis.
+        This code doesn't do anything very exciting, unless you like being able
+        to type dates, times, URLs, IP addresses, tags, and more without using
+        strings for everything. Oh, and if you think a universal syntax for
+        functions, blocks (arrays), and objects is a good idea.
     - lang: fr
       title: title here
       body: >
