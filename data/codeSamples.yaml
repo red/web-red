@@ -29,3 +29,52 @@
       title: title here
       body: > 
         Example 1 in Chinese
+- code: |
+    style my-button: base
+        on-down [face/color: face/color / 2 do-actor face event 'click]
+            on-up   [face/color: face/color * 2]
+                my-button "Say hi!" red on-click [print "hi"]
+    ]
+  description:
+    - lang: en
+      title: Sample - VID Dialect
+      body: >
+        Smart merging of a style's actors with the actors of a particular face instance was introduced 
+        in the VID dialect.
+    - lang: fr
+      title: title here
+      body: >
+        Example 2 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 2 in Chinese
+- code: |
+    data: [1 2.3 4% 5x6 07-Aug-2019 #"A" 12:34:56 0.0.255 127.0.0.1]
+    foreach value data [print [mold type? value tab value + 1]]
+
+    data: ["text" %file http://www.red-lang.org pr@red-lang.org <you're it>]
+    foreach value data [print [mold type? value tab append value "/test"]]
+
+    data: [
+        Red #no-issues /refined  append/dup copy "" #"x" 5
+        blk: [a: 1]  key: 'a  blk/:key  blk/1
+        (2 + 3) obj/method-or-attr 
+    ]
+    foreach value data [print [mold type? value tab mold :value]]
+  description:
+    - lang: en
+      title: Datatypes galore
+      body: >
+        This code doesn't do anything very exciting, unless you like being able
+        to type dates, times, URLs, IP addresses, tags, and more without using
+        strings for everything. Oh, and if you think a universal syntax for
+        functions, blocks (arrays), and objects is a good idea.
+    - lang: fr
+      title: title here
+      body: >
+        Example 3 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 3 in Chinese
