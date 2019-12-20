@@ -59,13 +59,13 @@ blocks:
     image_position: "left"
   - template: "action-feature"
     heading: "The Red Foundation is Making It Easier to Build Amazing Products."
+    content: |-
       Funding Open Source work is hard, but Red has a non-profit foundation
       behind it to help. Contributors are compensated for their efforts today,
       and we hope to do more in the future. Bounties, not just for bugs, but
       documentation, testing, and even community support. Much of this will be
       facilitated through tokenomics on the blockchain. It's a brave new world.
       
-    content: |-
     image: "/images/mars_city.jpg"
     image_position: "right"
     button_text: "Learn More"
