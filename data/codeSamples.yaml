@@ -1,5 +1,10 @@
 - code: |
-    view [txt: text data 0  button "Count" [txt/data: txt/data + 1]]
+    ;-- Counter
+    view [
+        txt: text data 0  button "Count" [
+            txt/data: txt/data + 1
+        ]
+    ]
   description:
     - lang: en
       title: Example 1
