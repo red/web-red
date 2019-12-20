@@ -1,4 +1,5 @@
 - code: |
+    '
     ;-- Counter
     view [
         txt: text data 0  button "Count" [
@@ -11,15 +12,16 @@
     t-change: function [in-face out-face fn][
         out-face/text: either number? t: load in-face/text [
     ]
+    '
   description:
     - lang: en
       title: Example 1
-      body: >
-        Two canonical GUI examples: a counter, and a temp converter.\n\ \n\
+      body: |
+        Two canonical GUI examples: a counter, and a temp converter.
 
-        Yes, these are both fully functional GUI programs.\n\
+        Yes, these are both fully functional GUI programs.
 
-        They should be hard to understand, what with the cryptic\n\
+        They should be hard to understand, what with the cryptic
         names and lack of comments.
     - lang: fr
       title: title here
@@ -30,6 +32,7 @@
       body: > 
         Example 1 in Chinese
 - code: |
+    '
     to-chan: function [
         "Convert % to color channel"
         value [percent!]
@@ -46,10 +49,11 @@
                 to-chan b/data
         ]
     ]
+    '
   description:
     - lang: en
       title: Sample - VID Dialect
-      body: >
+      body: |
         Sliders adjust face color via the reactive GUI system.
         
         Note that the indentation here is just to fit the sample area,
@@ -64,6 +68,7 @@
       body: > 
         Example 2 in Chinese
 - code: |
+    '
     data: [
         1 2.3 4% 5x6 07-Aug-2019 12:34:56
         0.0.255 127.0.0.1 #"A"
@@ -74,7 +79,7 @@
 
     data: [
         "text" %file http://www.red-lang.org 
-        pr@red-lang.org <you're it>
+        pr@red-lang.org <you\'re it>
     ]
     foreach value data [
         print [mold type? value tab append value "/test"]
@@ -89,10 +94,11 @@
     foreach value data [print [
         mold type? value tab mold :value]
     ]
+    '
   description:
     - lang: en
       title: Datatypes galore
-      body: >
+      body: |
         This code doesn't do anything very exciting, unless you like being able
         to type dates, times, URLs, IP addresses, tags, and more without using
         strings for everything. Oh, and if you think a universal syntax for
