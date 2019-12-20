@@ -9,7 +9,16 @@
     c-to-f: func [t][t * (9.0 / 5.0) + 32.0]
     f-to-c: func [t][t - 32.0 * (5.0 / 9.0)]
     t-change: function [in-face out-face fn][
-        out-face/text: either number? t: load in-face/text [
+	    out-face/text: either number? t: load in-face/text [
+	        form round/to fn t .01
+	    ][""]
+    ]
+    view [
+	    ; Use key-up because on-change doesn't detect event cycles
+	    tc: field on-key-up [t-change tc tf :c-to-f]
+            text "Celsius ="   
+	    tf: field on-key-up [t-change tf tc :f-to-c]
+            text "Farenheight"
     ]
   description:
     - lang: en
@@ -52,6 +61,7 @@
       body: |
         Sliders adjust face color via the reactive GUI system.
         
+        
         Note that the indentation here is just to fit the sample area,
         it does not control logic as in some whitespace sensitive
         languages.
@@ -77,7 +87,9 @@
         pr@red-lang.org <you\'re it>
     ]
     foreach value data [
-        print [mold type? value tab append value "/test"]
+        print [
+            mold type? value tab append value "/test"
+        ]
     ]
 
     data: [
@@ -86,8 +98,8 @@
         blk: [a: 1]  key: 'a  blk/:key  blk/1
         (2 + 3) obj/method-or-attr 
     ]
-    foreach value data [print [
-        mold type? value tab mold :value]
+    foreach value data [
+        print [mold type? value tab mold :value]
     ]
   description:
     - lang: en
@@ -97,6 +109,9 @@
         to type dates, times, URLs, IP addresses, tags, and more without using
         strings for everything. Oh, and if you think a universal syntax for
         functions, blocks (arrays), and objects is a good idea.
+        
+        This example, if you paste it into a Red console to see the results,
+        shows the homoiconic, reflective power of Red.
     - lang: fr
       title: title here
       body: >
