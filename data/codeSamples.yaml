@@ -1,5 +1,4 @@
 - code: |
-    '
     ;-- Counter
     view [
         txt: text data 0  button "Count" [
@@ -12,7 +11,6 @@
     t-change: function [in-face out-face fn][
         out-face/text: either number? t: load in-face/text [
     ]
-    '
   description:
     - lang: en
       title: Example 1
@@ -32,7 +30,6 @@
       body: > 
         Example 1 in Chinese
 - code: |
-    '
     to-chan: function [
         "Convert % to color channel"
         value [percent!]
@@ -49,7 +46,6 @@
                 to-chan b/data
         ]
     ]
-    '
   description:
     - lang: en
       title: Sample - VID Dialect
@@ -68,7 +64,6 @@
       body: > 
         Example 2 in Chinese
 - code: |
-    '
     data: [
         1 2.3 4% 5x6 07-Aug-2019 12:34:56
         0.0.255 127.0.0.1 #"A"
@@ -94,7 +89,6 @@
     foreach value data [print [
         mold type? value tab mold :value]
     ]
-    '
   description:
     - lang: en
       title: Datatypes galore
