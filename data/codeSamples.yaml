@@ -1,8 +1,37 @@
 - code: |
+    ; Say Hello
+    print "Hello World!"
+    ; Refer to values
+    a: 1 b: 2
+    x: a + b
+    ; Define functions
+    times-2: func [n [number!]][n * 2]
+    ; Show results in the REPL
+    print ["The answer is" times-2 x]
+    ; Read URLs
+    str: "I just read this on the web: "
+    print append str read https://www.red-lang.org/
+    ; Load some JSON
+    res: load https://jsonplaceholder.typicode.com/todos/1
+    print [res/userId res/title]
+    ; Or some CSV
+    url: https://raw.githubusercontent.com/GSA/data/master/dotgov-domains/current-full.csv
+    res: load/as url 'csv
+    ; Get help in the REPL
+    help
   description:
     - lang: en
       title: Example 1
       body: |
+        Red will look familiar to most high level programmers,
+        and that's by design. Under the hood, it's quite 
+        different, deep, and powerful, but you should be able 
+        to ramp up and be productive quickly.
+        
+        To use Red most effectively, you do need to clear your
+        mind a bit. Let the language do the heavy lifting, and
+        don't use strings or objects for everything. Learn to
+        leverage all the datatypes Red has to offer.
     - lang: fr
       title: title here
       body: >
@@ -11,87 +40,6 @@
       title: title here
       body: > 
         Example 1 in Chinese
-- code: |
-    ;-- Counter
-    view [
-        txt: text data 0  button "Count" [
-            txt/data: txt/data + 1
-        ]
-    ]
-    
-    ;-- Temperature Converter
-    c-to-f: func [t][t * (9.0 / 5.0) + 32.0]
-    f-to-c: func [t][t - 32.0 * (5.0 / 9.0)]
-    t-change: function [in-face out-face fn][
-        out-face/text: either number? t: load in-face/text [
-            form round/to fn t .01
-        ][""]
-    ]
-    view [
-        ; Use key-up because on-change doesn't detect event cycles
-        tc: field on-key-up [t-change tc tf :c-to-f]
-            text "Celsius ="   
-        tf: field on-key-up [t-change tf tc :f-to-c]
-            text "Farenheight"
-    ]
-  description:
-    - lang: en
-      title: Simple GUIs
-    - body: |
-        Two canonical GUI examples: a counter, and a temp converter.
-
-        Yes, these are both fully functional GUI programs.
-
-        They should be hard to understand, what with the cryptic
-        names and lack of comments.
-    - lang: fr
-      title: title here
-      body: >
-        Example 1 en France
-    - lang: cn
-      title: title here
-      body: > 
-        Example 1 in Chinese
-- code: |
-    to-chan: function [
-        "Convert % to color channel"
-        value [percent!]
-    ][
-        to integer! 255 * value
-    ]
-    view [
-        below
-        r: slider
-        g: slider
-        b: slider
-        base react [
-            face/color: as-color
-                to-chan r/data
-                to-chan g/data
-                to-chan b/data
-        ]
-    ]
-  description:
-    - lang: en
-      title: Reactive GUI system
-      body: |
-        Sliders adjust face color via the reactive GUI system. The
-        `react` block is scanned, finds to the `r`, `g`, and `b`
-        face references, and links to them, automatically listening
-        for events that indicate change.
-        
-        
-        Note that the indentation here is just to fit the sample area,
-        it does not control logic as in some whitespace sensitive
-        languages.
-    - lang: fr
-      title: title here
-      body: >
-        Example 2 en France
-    - lang: cn
-      title: title here
-      body: > 
-        Example 2 in Chinese
 - code: |
     data: [
         1 2.3 4% 5x6 07-Aug-2019 12:34:56
@@ -139,3 +87,88 @@
       title: title here
       body: > 
         Example 3 in Chinese
+- code: |
+    ;-- Counter:
+    view [
+        txt: text data 0
+        button "Count" [txt/data: txt/data + 1]
+    ]
+    
+    ;-- Temperature Converter
+    c-to-f: func [t][t * (9.0 / 5.0) + 32.0]
+    f-to-c: func [t][t - 32.0 * (5.0 / 9.0)]
+    t-change: function [
+        in-face  "The face that changed"
+        out-face "The face to update"
+        fn [function!] "Conversion function"
+    ][
+        t: load in-face/text
+        out-face/text: either number? t [
+            form round/to fn t .01
+        ][""]
+    ]
+    view [
+        ; Use key-up because on-change doesn't detect
+        ; event cycles.
+        tc: field on-key-up [t-change tc tf :c-to-f]
+            text "Celsius ="   
+        tf: field on-key-up [t-change tf tc :f-to-c]
+            text "Farenheight"
+    ]
+  description:
+    - lang: en
+      title: Simple GUIs
+      body: |
+        Two canonical GUI examples: a counter, and a temp converter.
+        
+        Yes, these are both fully functional GUI programs.
+        
+        They should be hard to understand, what with the cryptic
+        names and lack of comments.
+    - lang: fr
+      title: title here
+      body: >
+        Example 1 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 1 in Chinese
+- code: |
+    to-chan: function [
+        "Convert % to color channel"
+        value [percent!]
+    ][
+        to integer! 255 * value
+    ]
+    view [
+        below
+        r: slider
+        g: slider
+        b: slider
+        base react [
+            face/color: as-color
+                to-chan r/data
+                to-chan g/data
+                to-chan b/data
+        ]
+    ]
+  description:
+    - lang: en
+      title: Reactive GUI system
+      body: |
+        Sliders adjust face color via the reactive GUI system. The
+        *react* block is scanned, finds to the `r`, `g`, and `b`
+        face references, and links to them, automatically listening
+        for events that indicate change.
+        
+        Note that the indentation here is just to fit the sample area,
+        it does not control logic as in some whitespace sensitive
+        languages.
+    - lang: fr
+      title: title here
+      body: >
+        Example 2 en France
+    - lang: cn
+      title: title here
+      body: > 
+        Example 2 in Chinese
