@@ -6,17 +6,18 @@
     x: a + b
     ; Define functions
     times-2: func [n [number!]][n * 2]
-    ; Show results in the REPL
+    ; Show results in the Red console
     print ["The answer is" times-2 x]
     ; Read URLs
-    str: "I just read this on the web: "
-    print append str read https://www.red-lang.org/
-    ; Load some JSON
+    str: read https://www.red-lang.org/
+    ; TBD Set up red-lang URLs that return sample data
+    ; Load JSON
     res: load https://jsonplaceholder.typicode.com/todos/1
-    print [res/userId res/title]
-    ; Or some CSV
+    print ["ID:" res/userId "Title:" mold res/title]
+    ; Or CSV
     url: https://raw.githubusercontent.com/GSA/data/master/dotgov-domains/current-full.csv
     res: load/as url 'csv
+    ;print ["CSV result contains" length? res/1 "columns and" subtract length? res 1 "rows"]
     ; Get help in the REPL
     help
   description:
@@ -30,7 +31,6 @@
         
         To use Red most effectively, you do need to clear your
         mind a bit. Let the language do the heavy lifting, and
-        don't use strings or objects for everything. Learn to
         leverage all the datatypes Red has to offer.
     - lang: fr
       title: title here
@@ -51,7 +51,7 @@
 
     data: [
         "text" %file http://www.red-lang.org 
-        pr@red-lang.org <you\'re it>
+        pr@red-lang.org <you're it> #{DECAFBAD}
     ]
     foreach value data [
         print [
@@ -60,25 +60,28 @@
     ]
 
     data: [
-        Red #no-issues /refined
-        append/dup copy "" #"x" 5
-        blk: [a: 1]  key: 'a  blk/:key  blk/1
-        (2 + 3) obj/method-or-attr 
+        Red #no-issues /refined (2 + 3)
+        blk: [a: 1] key: 'a  'blk/a
+        blk/:key  blk/1: :obj/method-or-attr 
     ]
     foreach value data [
         print [mold type? value tab mold :value]
     ]
   description:
     - lang: en
-      title: Datatypes galore
+      title: Datatypes Galore
       body: |
-        This code doesn't do anything very exciting, unless you like being able
-        to type dates, times, URLs, IP addresses, tags, and more without using
-        strings for everything. Oh, and if you think a universal syntax for
-        functions, blocks (arrays), and objects is a good idea.
+        Where most languages have 6-8 datatypes, Red has almost 50. They are
+        central to its expressive power, reduce line noise, and improve
+        readability. You can type dates, times, URLs, IP and email addresses,
+        tags, filenames, 2D coordinates, hashtags, and more directly; just as
+        if you were writing for another human to read, which of course you are.
         
-        This example, if you paste it into a Red console to see the results,
+        This example, which you can paste into a Red console to see the results,
         shows the homoiconic, reflective power of Red.
+
+        Red also uses a universal path syntax for accessing blocks (arrays),
+        maps (associative arrays), objects, and calling functions.
     - lang: fr
       title: title here
       body: >
@@ -88,7 +91,7 @@
       body: > 
         Example 3 in Chinese
 - code: |
-    ;-- Counter:
+    ;-- Counter
     view [
         txt: text data 0
         button "Count" [txt/data: txt/data + 1]
@@ -108,8 +111,6 @@
         ][""]
     ]
     view [
-        ; Use key-up because on-change doesn't detect
-        ; event cycles.
         tc: field on-key-up [t-change tc tf :c-to-f]
             text "Celsius ="   
         tf: field on-key-up [t-change tf tc :f-to-c]
@@ -119,12 +120,15 @@
     - lang: en
       title: Simple GUIs
       body: |
-        Two canonical GUI examples: a counter, and a temp converter.
+        Two canonical GUI examples: a counter, and a temperature converter.
         
         Yes, these are both fully functional GUI programs.
         
-        They should be hard to understand, what with the cryptic
-        names and lack of comments.
+        Even with the cryptic names and lack of comments, they shouldn't be
+        hard to understand. We wanted to fit them in the sample space here,
+        and Red doesn't force a particular format. While there is a standard
+        style guide, you can format things however you want, to most clearly
+        express intent or fit a purpose.
     - lang: fr
       title: title here
       body: >
@@ -157,11 +161,11 @@
       title: Reactive GUI system
       body: |
         Sliders adjust face color via the reactive GUI system. The
-        *react* block is scanned, finds to the `r`, `g`, and `b`
+        _react_ block is scanned, finds to the `r`, `g`, and `b`
         face references, and links to them, automatically listening
         for events that indicate change.
         
-        Note that the indentation here is just to fit the sample area,
+        Again, the indentation here is just to fit the sample area,
         it does not control logic as in some whitespace sensitive
         languages.
     - lang: fr
