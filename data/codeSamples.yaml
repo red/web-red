@@ -161,10 +161,10 @@
       title: Reactive GUI system
       body: |
         Sliders adjust face color via the reactive GUI system. The
-        _react_ block is scanned, finds to the `r`, `g`, and `b`
-        face references, and links to them, automatically listening
-        for events that indicate change.
-        
+        <em>react</em> block is scanned, finds to the <em>r</em>,
+        <em>g</em>, and <em>b</em> face references, and links to them,
+        automatically listening for events that indicate change.
+        <br><br>
         Again, the indentation here is just to fit the sample area,
         it does not control logic as in some whitespace sensitive
         languages.
