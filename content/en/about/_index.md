@@ -57,50 +57,61 @@ blocks:
   - template: "grid-list"
     num_cols: 4
     grid_items:
-      - title: Friendly Syntax
-        description: Description goes here.
-      - title: Homoiconic
-        description: Description goes here.
-      - title: Reactive and Symbolic
-        description: Description goes here.
-      - title: Object Support
-        description: Description goes here.
-        
-      - title: Gradual & Multi-typing
-        description: Description goes here.
-      - title: Macros System
-        description: Description goes here.
-      - title: Built-in Datatypes
-        description: Description goes here.
-      - title: Native Code
-        description: Description goes here.
-        
-      - title: Cross-compilation
-        description: Different description snuck in this one somehow.
-      - title: No Dependencies
-        description: Description goes here.
-      - title: Parallelism Support
-        description: Description goes here.
-      - title: Low-level Programming
-        description: Description goes here.
-        
-      - title: PEG Parser DSL
-        description: Description goes here.
-      - title: Native GUI System
-        description: Description goes here. It would go here. Move right along.
-      - title: Bridging to the JVM
-        description: Description goes here.
-      - title: High-level Scripting
-        description: Description goes here.
-        
-      - title: Visual Studio Plugin
-        description: Description goes here.
-      - title: Highly Embeddable
-        description: Description goes here.
-      - title: Garbage Collected
-        description: Description goes here.
       - title: Single File
-        description: Description goes here.
+        description: One EXE. Drop it on your system and go.
+      - title: No Dependencies
+        description: Red only uses what your OS provides.
+      - title: Native GUI System
+        description: Built right in; Red syntax in an eDSL.
+      - title: VSCode Plugin
+        description: Supports help and autocomplete.
+
+      - title: High-level Scripting
+        description: Think Python, Ruby, or Javascript abstraction level.
+      - title: Modern Syntax
+        description: Legacy syntax models don't support things we use all the time.
+      - title: Built-in Datatypes
+        description: Around 50 of them. Many have direct lexical forms. 
+      - title: Homoiconic
+        description: Code is data. Red's ancestor, Rebol, was designed as a messaging language. Red is great even if used only as a data interchange format.
+
+      - title: Garbage Collected
+        description: You shouldn't have to manage memory.
+      - title: Symbolic
+        description: Words and context are central elements. 
+      - title: Object Support
+        description: Prototype based objects, like Javascript and Self.
+      - title: Reactivity
+        description: Declarative dataflow model; works on objects and GUI elements.
+        
+      - title: Dynamic and Strongly Typed
+        description: Values are strongly typed, variables are not.
+      - title: PEG Parser DSL
+        description: Works at both the string and Red value level. e.g., you can parse by datatype.
+      - title: Macro System
+        description: Fully hygienic; compile time or runtime.
+      - title: Bridging to the JVM
+        description: Android coming soon (experimental now)
+
+      - title: Native Code
+        description: Compile to machine code; no C or ASM needed.
+      - title: Highly Embeddable
+        description: Call into the Red runtime from C or other langs.
+      - title: Cross-compilation
+        description: Compile to any platform, from any platform.
+      - title: Low-level Programming
+        description: Red/System is a C-level dialect of Red; built-in.
+        
+      - title: Concurrency
+        description: Informed by many models. One size does not fit all.
+      - title: Higher Order Functions
+        description: Rethought from the ground up, for the modern world.
+      - title: Command Line Support Made Easy
+        description: A CLI lib like no other.
+      - title: Modules and Packages
+        description: Coming soon!
+        
+        
   - template: "accordion"
     accordion_items:
       - title: How do I install Red?
@@ -131,7 +142,7 @@ blocks:
     image: "http://via.placeholder.com/500x280"
     image_position: "left"
     button_text: "Learn More"
-    button_url: "https://ico.red-lang.org"
+    button_url: "https://doc.red-lang.org/"
     bg_dark: true
   - template: "action-feature"
     heading: "Are you one of us?"
@@ -143,8 +154,8 @@ blocks:
       spoon. Join us, and fight sofware complexity.
     image: "http://via.placeholder.com/500x280"
     image_position: "right"
-    button_text: "Learn More"
-    button_url: "https://foundation.red-lang.org"
+    button_text: "Start Reducing"
+    button_url: "https://gitter.im/red/red"
     bg_dark: true
   - template: "narrow-cta"
 ---
