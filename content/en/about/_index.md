@@ -1,25 +1,56 @@
 ---
 title: About
-subtitle: Red is a powerful programming language, inspired by REBOL and built to empower.
+subtitle: Red is a deep, powerful language, inspired by Rebol.<br>Its mission, to fight software complexity.
 blocks:
   - template: "media-feature"
     heading: "Red Can Do It All"
     content: |-
-      Red is a full-stack (metal to meta), open-source toolchain. It's a relatively new, general-to-granular programming language created by Nenad Rakocevic, developed as an open-source project since 2011. By full stack, we mean you can use one common language base to write anything: a device driver, a shared library, a platform-native GUI application, a client, an OS, decentralized apps...anything you can envision.
+      Red is a full-stack, metal to meta, open-source toolchain. It's a 
+      relatively new, language created by Nenad Rakocevic. It was directly
+      inspired by Rebol, designed by Carl Sassenrath (of Amiga OS fame),
+      and has been developed as an open-source project since 2011.
+      
+      Red was bootstrapped in Rebol, to prove that the language was capable
+      of self-hosting. High level Red code compiles to low level Red/System 
+      code, which compiles directly to machine code. No C compiler or 
+      assembler is needed.
+     
     image: "/images/redlang_heroine_planet2.jpg"
     image_position: "left"
     image_shadow: true
   - template: "media-feature"
-    heading: "Lean, Nimble and Compact"
+    heading: "Lean, Nimble, Flexible"
     content: |-
-      Other languages talk about having "one tool to rule them all". Red has that mindset too, pushed to the limit - it's a single executable that takes in your source files on any platform, and produces a packaged binary for any platform, from any other. The tool doesn't depend on anything besides what came with your OS...shipping as a single executable that's smaller than a megabyte.
+      The entire toolchain, including a full cross compiler and reactive GUI
+      system, fits in a single EXE just over 1MB in size. Drop that EXE in a
+      folder, and you're good to go. Compile to any platform, from any
+      platform. Red doesn't depend on anything besides what came with your OS,
+      and the same goes for apps you build with it.
+      
+      But Red is also flexible. You can compile the runtime to be used externally,
+      shared by mutiple apps, or called into from other languages. If you need
+      blazing performance, like C, you can program directly in Red/System, getting
+      EXEs as small as 7-25K (dependending on the target OS). Or you can mix and
+      match. By using the `routine` keyword in Red, you can inline Red/System code
+      for performance critical sections.
     image: "/images/redlang_heroine_crouch.jpg"
     image_position: "right"
     image_shadow: true
   - template: "media-feature"
     heading: "Red Makes Life Easy"
     content: |-
-      It uses human-friendly syntax, like 31-Jan-2018 / 16:00+8:00 for dates, which, for example, is 1517385600 in epoch seconds, for those of you wearing an epoch seconds watch. Its interactive read-eval-print loop allows you to construct your own self-informing code, checking your work as you go, and offers a rich set of built-in datatypes (over 50).
+      It uses human-friendly syntax, like 31-Jan-2018 / 16:00+8:00 for dates, 
+      which is 1517385600 for those of you wearing an epoch seconds watch. What?
+      Nobody? That's what we thought. As programmers, we are so used to the pain
+      most languages inflict on us, that we never even think there could be a
+      better way.
+      
+      We spend a lot of time on the design side, not just copying designs from
+      the past but taking the long view. Your time, and the time for everyone 
+      reading and maintaining your code is valuable. Much more valuable than the
+      machine's time. A great irony here is that Red can be much more efficient
+      while also providing a better user experience.
+      
     image: "/images/heroine_hanoi.jpg"
     image_position: "left"
     image_shadow: true
@@ -34,6 +65,7 @@ blocks:
         description: Description goes here.
       - title: Object Support
         description: Description goes here.
+        
       - title: Gradual & Multi-typing
         description: Description goes here.
       - title: Macros System
@@ -42,6 +74,7 @@ blocks:
         description: Description goes here.
       - title: Native Code
         description: Description goes here.
+        
       - title: Cross-compilation
         description: Different description snuck in this one somehow.
       - title: No Dependencies
@@ -50,6 +83,7 @@ blocks:
         description: Description goes here.
       - title: Low-level Programming
         description: Description goes here.
+        
       - title: PEG Parser DSL
         description: Description goes here.
       - title: Native GUI System
@@ -58,6 +92,7 @@ blocks:
         description: Description goes here.
       - title: High-level Scripting
         description: Description goes here.
+        
       - title: Visual Studio Plugin
         description: Description goes here.
       - title: Highly Embeddable
@@ -70,30 +105,46 @@ blocks:
     accordion_items:
       - title: How do I install Red?
         description: |-
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et lorem sed quam porta rhoncus. Pellentesque porttitor nisi sit amet tortor tristique, nec euismod odio laoreet. Vivamus non elementum sem, non sodales dolor.
-
-          Then you reach enlightenment.
+          It's easy! Go to https://beta.red-lang.org/download/ and follow the instructions.
+          Happiness awaits.
       - title: How is Red supported?
-        description: Description goes here.
+        description: |-
+          Red has a great community, with most of our chat taking place at https://gitter.im/red/red.
+          But you can find all the Red rooms via https://gitter.im/red/home.
       - title: Where is Red going?
-        description: Description goes here.
+        description: |-
+          To Infinity and a NaN! Seriously, there are no limits in either direction.
+          Whether you use it for writing desktop applications, sys-admin and data 
+          analysis tools, microservices, or simply as a data interchange format, Red
+          is your faithful companion, your superhero sidekick. The question isn't 
+          where Red is going, but where you're going to take it.
   - template: "action-feature"
-    heading: "The Red Foundation is Making It Easier to Build Amazing Products with Red."
+    heading: "Red isn't for everyone"
     content: |-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et lorem sed quam porta rhoncus. Pellentesque porttitor nisi sit amet tortor tristique, nec euismod odio laoreet. Vivamus non elementum sem, non sodales dolor.
-    image: "http://via.placeholder.com/500x280"
-    image_position: "right"
-    button_text: "Learn More"
-    button_url: "https://foundation.red-lang.org"
-    bg_dark: true
-  - template: "action-feature"
-    heading: "The RED Token is Powering a Revolutionary New Kind of Blockchain."
-    content: |-
-      Integer ut aliquam est. Vestibulum pretium sit amet tortor vel sagittis. Mauris quis ex nisl. Nam vel interdum tortor. Aenean auctor metus erat, non congue nisi tempus at. Pellentesque convallis lacus nulla, nec ullamcorper velit pharetra eu. Suspendisse dapibus sit amet nisl gravida tincidunt. Ut id aliquam diam. Sed dui ex, tristique eu diam nec, tincidunt ullamcorper urna. Aliquam libero nulla, convallis nec mauris nec, euismod finibus ipsum.
+      Sure, it's easy to use, a no-brainer to install, and will let you write
+      code in your paradigm of choice. But it's not for everyone. It's for 
+      rebels or, as we call ourselves, Reducers. Those who think there has to 
+      be a better way to write software, who are tired of slow, bloated, complex
+      tools. The few who recognize that we've forgotten some of the best and
+      most important lessons from the early days, while carrying forward a legacy
+      of syntax and limitations tied to machines and thinking from long ago.
     image: "http://via.placeholder.com/500x280"
     image_position: "left"
     button_text: "Learn More"
     button_url: "https://ico.red-lang.org"
+    bg_dark: true
+  - template: "action-feature"
+    heading: "Are you one of us?"
+    content: |-
+      Do you feel that there's something wrong with the world? You don't know
+      what it is, but it's there, like a splinter in your mind...OK, you do
+      know what it is; it's complexity. If you agree, if you dare to follow
+      the tradition of the Rebol Forces, we can show you that there is no 
+      spoon. Join us, and fight sofware complexity.
+    image: "http://via.placeholder.com/500x280"
+    image_position: "right"
+    button_text: "Learn More"
+    button_url: "https://foundation.red-lang.org"
     bg_dark: true
   - template: "narrow-cta"
 ---
