@@ -37,7 +37,7 @@ blocks:
       and a PEG-like parsing dialect. Even Red/System, the C level language
       is a dialect of Red.
       
-    image: "/images/swissarmy500x280.jpg"
+    image: "/images/abstraction.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "RED Tokens on the Blockchain"
@@ -55,7 +55,7 @@ blocks:
       C3 can still provide increased safety, close to that provided by
       templates, but with greater flexibility. Stay tuned!
       
-    image: "/images/mars_scape.jpg"
+    image: "/images/red-tokens.jpg"
     image_position: "left"
   - template: "action-feature"
     heading: "Red Foundation Support"
@@ -66,7 +66,7 @@ blocks:
       documentation, testing, and even community support. Much of this will be
       facilitated through tokenomics on the blockchain. It's a brave new world.
       
-    image: "/images/mars_city.jpg"
+    image: "/images/support.jpg"
     image_position: "right"
     button_text: "Learn More"
     button_url: "https://foundation.red-lang.org"
