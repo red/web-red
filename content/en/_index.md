@@ -23,7 +23,7 @@ blocks:
     type: "image"
     heading: "How Red Stacks Up"
     src: >
-      <iframe src="/images/abstraction_v2-01.jpg"</iframe>
+      <iframe src="https://beta.red-lang.org/images/abstraction_v2-01.jpg"</iframe>
   - template: "media-feature"
     heading: "Abstraction on Every Level"
     content: |-
