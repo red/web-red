@@ -20,10 +20,9 @@ blocks:
     button_url: "/download/"
     image_position: "right"
   - template: "1up-media"
-    type: "video"
-    heading: "See Red in Action"
-    src: >
-      <iframe src="https://www.youtube.com/embed/SGjVUfiZBLA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    type: "image"
+    heading: "How Red Stacks Up"
+    image: "/images/abstraction.jpg"
   - template: "media-feature"
     heading: "Abstraction on Every Level"
     content: |-
