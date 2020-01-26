@@ -27,13 +27,15 @@ blocks:
   - template: "1up-media"
     type: "image"
     heading: "How Red Stacks Up"
+    # This seems like it should work, but something in the toolchain mangles the image name.
     src: >
-      <iframe><img src="https://beta.red-lang.org/images/abstraction_v2-01.jpg"></img></iframe>
+      <img src="https://beta.red-lang.org/images/abstraction_v2-01.jpg"></img>
   - template: "media-feature"
     heading: "How Red Stacks Up"
     content: |-
     
     image: "/images/abstraction_v2-01.jpg"
+    image_position: "center"
   - template: "media-feature"
     heading: "Abstraction on Every Level"
     content: |-
