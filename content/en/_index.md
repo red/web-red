@@ -20,9 +20,9 @@ blocks:
     button_url: "/download/"
     image_position: "right"
   - template: "1up-media"
-    type: "image"
+    type: "video"
     heading: "How Red Stacks Up"
-    image: "/images/abstraction.jpg"
+    image: "/images/abstraction_v2-01.jpg"
   - template: "media-feature"
     heading: "Abstraction on Every Level"
     content: |-
@@ -36,7 +36,7 @@ blocks:
       and a PEG-like parsing dialect. Even Red/System, the C level language
       is a dialect of Red.
       
-    image: "/images/abstraction_v2-01.jpg"
+    image: "/images/abstraction.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "RED Tokens on the Blockchain"
