@@ -20,8 +20,20 @@ blocks:
     button_url: "/download/"
     image_position: "right"
   - template: "1up-media"
+    type: "video"
     heading: "How Red Stacks Up"
-    image: "/images/abstraction.jpg"
+    src: >
+      <iframe src="https://www.youtube.com/embed/SGjVUfiZBLA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  - template: "1up-media"
+    type: "image"
+    heading: "How Red Stacks Up"
+    src: >
+      <iframe><img src="https://beta.red-lang.org/images/abstraction_v2-01.jpg"></img></iframe>
+  - template: "media-feature"
+    heading: "How Red Stacks Up"
+    content: |-
+    
+    image: "/images/abstraction_v2-01.jpg"
   - template: "media-feature"
     heading: "Abstraction on Every Level"
     content: |-
