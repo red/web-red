@@ -36,7 +36,7 @@ blocks:
       and a PEG-like parsing dialect. Even Red/System, the C level language
       is a dialect of Red.
       
-    image: "/images/abstraction.jpg"
+    image: "/images/abstraction_v2-01.jpg"
     image_position: "right"
   - template: "media-feature"
     heading: "RED Tokens on the Blockchain"
