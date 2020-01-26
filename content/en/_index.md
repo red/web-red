@@ -20,9 +20,10 @@ blocks:
     button_url: "/download/"
     image_position: "right"
   - template: "1up-media"
-    type: "video"
+    type: "image"
     heading: "How Red Stacks Up"
-    image: "/images/abstraction_v2-01.jpg"
+    src: >
+      <iframe src="/images/abstraction_v2-01.jpg"</iframe>
   - template: "media-feature"
     heading: "Abstraction on Every Level"
     content: |-
