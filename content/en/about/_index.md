@@ -28,9 +28,9 @@ blocks:
       
       Red is also flexible. Compile the runtime to be used externally and shared,
       or called into from other languages. Need blazing performance, like C? Write
-      directly in Red/System, getting EXEs as small as 7K. Mix and match at will.
-      By using the `routine` keyword in Red, you can inline Red/System code
-      for performance critical sections.
+      directly in Red/System (EXEs as small as 7K). Mix and match by using the
+      `routine` keyword in Red to inline Red/System code for performance critical
+      sections.
     image: "/images/lean-nimble.jpg"
     image_position: "right"
     image_shadow: true
@@ -43,11 +43,10 @@ blocks:
       most languages inflict on us, that we never even think there could be a
       better way.
       
-      We spend a lot of time on the design side, not just copying from
-      the past but taking the long view. Your time, and the time for everyone 
-      reading and maintaining your code is valuable. Much more valuable than the
-      machine's time. A great irony here is that Red can be more efficient
-      while also providing a better user experience.
+      We spend a lot of time on design, not just copying from the past, taking
+      the long view. Human time is more valuable than machine time. You win
+      because Red can be more efficient while also providing a better user
+      experience.
       
     image: "/images/red-knows.jpg"
     image_position: "left"

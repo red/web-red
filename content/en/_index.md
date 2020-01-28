@@ -9,12 +9,10 @@ blocks:
         anything, from metal to meta. With both a REPL and a self-contained
         toolchain, it's easy to get started. One EXE. Drop and go.<br><br>
         
-        Platform-native GUIs, DSLs, code generators, libraries, device
-        drivers, an OS, decentralized apps...anything you can imagine,
-        using a single, homoiconic language.<br><br>
+        Platform-native GUIs, DSLs, code generators, device drivers, an 
+        OS...anything you can imagine, using a single language.<br><br>
         
-        Our mission is to fight complexity and bloat using concise, elegant,
-        powerful code.
+        Red's Mission: Fight software complexity.
         
     button_text: "Download"
     button_url: "/download/"
@@ -49,10 +47,7 @@ blocks:
       source teams.<br>
 
       Red's domain-specific languages and ease of use make it a revolutionary
-      new tool for the decentralized web. Less vulnerable to exploit than
-      Solidity, it eliminates many attack vectors. Want the limitations off?
-      C3 can still provide increased safety, close to that provided by
-      templates, but with greater flexibility. Stay tuned!
+      new tool for the decentralized web. Stay tuned!
       
     image: "/images/red-tokens.jpg"
     image_position: "left"
