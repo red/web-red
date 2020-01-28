@@ -5,17 +5,16 @@ blocks:
   - template: "media-feature"
     heading: "Red Can Do It All"
     content: |-
-      Red is a full-stack, metal to meta, open-source toolchain. It's a 
-      relatively new, language created by Nenad Rakocevic. It was directly
-      inspired by Rebol, designed by Carl Sassenrath (of Amiga OS fame),
-      and has been developed as an open-source project since 2011.
+      It's a metal to meta, open-source toolchain created by Nenad Rakocevic,
+      directly inspired by Rebol (designed by Carl Sassenrath of Amiga OS
+      fame), and actively developed as an open-source project since 2011.
       
-      Red was bootstrapped in Rebol, to prove that the language was capable
-      of self-hosting. High level Red code compiles to low level Red/System 
+      Bootstrapped in Rebol, to prove that the language was capable
+      of self-hosting, high level Red code compiles to low level Red/System 
       code, which compiles directly to machine code. No C compiler or 
       assembler is needed.
      
-    image: "/images/redlang_heroine_planet2.jpg"
+    image: "/images/can-do-it-all.jpg"
     image_position: "left"
     image_shadow: true
   - template: "media-feature"
@@ -24,20 +23,19 @@ blocks:
       The entire toolchain, including a full cross compiler and reactive GUI
       system, fits in a single EXE just over 1MB in size. Drop that EXE in a
       folder, and you're good to go. Compile to any platform, from any
-      platform. Red doesn't depend on anything besides what came with your OS,
-      and the same goes for apps you build with it.
+      platform. Red doesn't depend on anything beyond your OS, and the same
+      goes for apps you build with it.
       
-      But Red is also flexible. You can compile the runtime to be used externally,
-      shared by mutiple apps, or called into from other languages. If you need
-      blazing performance, like C, you can program directly in Red/System, getting
-      EXEs as small as 7-25K (dependending on the target OS). Or you can mix and
-      match. By using the `routine` keyword in Red, you can inline Red/System code
+      Red is also flexible. Compile the runtime to be used externally and shared,
+      or called into from other languages. Need blazing performance, like C? Write
+      directly in Red/System, getting EXEs as small as 7K. Mix and match at will.
+      By using the `routine` keyword in Red, you can inline Red/System code
       for performance critical sections.
-    image: "/images/redlang_heroine_crouch.jpg"
+    image: "/images/lean-nimble.jpg"
     image_position: "right"
     image_shadow: true
   - template: "media-feature"
-    heading: "Red Makes Life Easy"
+    heading: "Red Knows You're Human"
     content: |-
       It uses human-friendly syntax, like 31-Jan-2018 / 16:00+8:00 for dates, 
       which is 1517385600 for those of you wearing an epoch seconds watch. What?
@@ -45,13 +43,13 @@ blocks:
       most languages inflict on us, that we never even think there could be a
       better way.
       
-      We spend a lot of time on the design side, not just copying designs from
+      We spend a lot of time on the design side, not just copying from
       the past but taking the long view. Your time, and the time for everyone 
       reading and maintaining your code is valuable. Much more valuable than the
-      machine's time. A great irony here is that Red can be much more efficient
+      machine's time. A great irony here is that Red can be more efficient
       while also providing a better user experience.
       
-    image: "/images/heroine_hanoi.jpg"
+    image: "/images/red-knows.jpg"
     image_position: "left"
     image_shadow: true
   - template: "grid-list"
@@ -137,9 +135,9 @@ blocks:
       rebels or, as we call ourselves, Reducers. Those who think there has to 
       be a better way to write software, who are tired of slow, bloated, complex
       tools. The few who recognize that we've forgotten some of the best and
-      most important lessons from the early days, while carrying forward a legacy
+      most important lessons of the past, while carrying forward a legacy
       of syntax and limitations tied to machines and thinking from long ago.
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/isnt-for-everyone.jpg"
     image_position: "left"
     button_text: "Learn More"
     button_url: "https://doc.red-lang.org/"
@@ -152,7 +150,7 @@ blocks:
       know what it is; it's complexity. If you agree, if you dare to follow
       the tradition of the Rebol Forces, we can show you that there is no 
       spoon. Join us, and fight sofware complexity.
-    image: "http://via.placeholder.com/500x280"
+    image: "/images/one-of-us.jpg"
     image_position: "right"
     button_text: "Start Reducing"
     button_url: "https://gitter.im/red/red"
