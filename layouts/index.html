@@ -33,6 +33,7 @@
 		{{- if eq .template "2up" -}}{{ partial "blocks/2up" (dict "Params" .) }}{{- end -}}
 		{{- if eq .template "card-grid" -}}{{ partial "blocks/card-grid" (dict "Params" .) }}{{- end -}}
 		{{- if eq .template "grid-list" -}}{{ partial "blocks/grid-list" (dict "Params" .) }}{{- end -}}
+		{{- if eq .template "centered" -}}{{ partial "blocks/centered" (dict "Params" .) }}{{- end -}}
 	{{- end -}}
 
 	{{ with .Content }}

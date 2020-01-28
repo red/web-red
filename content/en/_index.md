@@ -19,22 +19,9 @@ blocks:
     button_text: "Download"
     button_url: "/download/"
     image_position: "right"
-  - template: "1up-media"
-    type: "video"
+  - template: "centered"
     heading: "How Red Stacks Up"
-    src: >
-      <iframe src="https://www.youtube.com/embed/SGjVUfiZBLA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-  - template: "1up-media"
-    type: "image"
-    heading: "How Red Stacks Up"
-    # This seems like it should work, but something in the toolchain mangles the image name.
-    src: >
-      <img src="https://beta.red-lang.org/images/abstraction_v2-01.jpg"></img>
-  - template: "media-feature"
-    heading: "How Red Stacks Up"
-    content: |-
-    
-    image: "/images/abstraction_v2-01.jpg"
+    image: "/images/cityscape_red.jpg"
     image_position: "center"
   - template: "media-feature"
     heading: "Abstraction on Every Level"
@@ -85,3 +72,4 @@ blocks:
     bg_dark: true
   - template: "narrow-cta"
 ---
+
