@@ -25,8 +25,8 @@ blocks:
       folder go. Compile to any platform, <i>from</i> any platform. Red 
       doesn't depend on anything but your OS; the same goes for what you build.
       
-      Red is also flexible. Compile the runtime to be used externally and shared,
-      or called into from other languages. Need C speed? Write your app in 
+      Make standalone EXEs, or compile the runtime to be used externally and
+      called into from other languages. Need C speed? Write your app in 
       Red/System (EXEs as small as 7K), or inline Red/System code just for
       performance critical sections.
     image: "/images/lean-nimble.jpg"
@@ -35,8 +35,8 @@ blocks:
   - template: "media-feature"
     heading: "Red Knows You're Human"
     content: |-
-      It uses human-friendly syntax, like 31-Jan-2018 / 16:00+8:00 for date/time, 
-      which is 1517385600 for those of you wearing an epoch seconds watch. What?
+      As one example, you write dates like this: `31-Jan-2018/16:00+8:00`, which
+      is `1517385600` for those of you wearing an epoch seconds watch. What?
       Nobody? That's what we thought. As programmers, we are so used to the pain
       most languages inflict on us, that we can't even see there could be a
       better way.
