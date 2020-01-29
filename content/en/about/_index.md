@@ -142,9 +142,8 @@ blocks:
     content: |-
       Do you feel that there's something wrong with the world? You don't know
       what it is, but it's there, like a splinter in your mind...OK, you do
-      know what it is; it's complexity. If you agree, if you dare to lead others
-      into the future, we can show you that there is no spoon. Join us, and
-      fight software complexity.
+      know what it is; it's complexity. If you agree, take the Red pill. Join
+      us, and fight software complexity.
     image: "/images/one-of-us.jpg"
     image_position: "right"
     button_text: "Start Reducing"
