@@ -21,32 +21,29 @@ blocks:
     heading: "Lean, Nimble, Flexible"
     content: |-
       The entire toolchain, including a full cross compiler and reactive GUI
-      system, fits in a single EXE just over 1MB in size. Drop that EXE in a
-      folder, and you're good to go. Compile to any platform, from any
-      platform. Red doesn't depend on anything beyond your OS, and the same
-      goes for apps you build with it.
+      system, is in a single EXE just over 1MB in size. Drop that EXE in a
+      folder go. Compile to any platform, <i>from</i> any platform. Red 
+      doesn't depend on anything but your OS; the same goes for what you build.
       
       Red is also flexible. Compile the runtime to be used externally and shared,
-      or called into from other languages. Need blazing performance, like C? Write
-      directly in Red/System (EXEs as small as 7K). Mix and match by using the
-      `routine` keyword in Red to inline Red/System code for performance critical
-      sections.
+      or called into from other languages. Need C speed? Write your app in 
+      Red/System (EXEs as small as 7K), or inline Red/System code just for
+      performance critical sections.
     image: "/images/lean-nimble.jpg"
     image_position: "right"
     image_shadow: true
   - template: "media-feature"
     heading: "Red Knows You're Human"
     content: |-
-      It uses human-friendly syntax, like 31-Jan-2018 / 16:00+8:00 for dates, 
+      It uses human-friendly syntax, like 31-Jan-2018 / 16:00+8:00 for date/time, 
       which is 1517385600 for those of you wearing an epoch seconds watch. What?
       Nobody? That's what we thought. As programmers, we are so used to the pain
-      most languages inflict on us, that we never even think there could be a
+      most languages inflict on us, that we can't even see there could be a
       better way.
       
-      We spend a lot of time on design, not just copying from the past, taking
-      the long view. Human time is more valuable than machine time. You win
-      because Red can be more efficient while also providing a better user
-      experience.
+      We spend a lot of time on design, taking a long view. Human time is more
+      valuable than machine time. You win because Red can be more efficient while
+      also providing a better user experience.
       
     image: "/images/red-knows.jpg"
     image_position: "left"
@@ -129,13 +126,12 @@ blocks:
   - template: "action-feature"
     heading: "Red isn't for everyone"
     content: |-
-      Sure, it's easy to use, a no-brainer to install, and will let you write
-      code in your paradigm of choice. But it's not for everyone. It's for 
-      rebels or, as we call ourselves, Reducers. Those who think there has to 
-      be a better way to write software, who are tired of slow, bloated, complex
-      tools. The few who recognize that we've forgotten some of the best and
-      most important lessons of the past, while carrying forward a legacy
-      of syntax and limitations tied to machines and thinking from long ago.
+      Sure, it's easy to use, a no-brainer to install, and has superpowers, but
+      it's not for everyone. It's for rebels or, as we call ourselves, Reducers.
+      Those who think there has to be a better way to create software. The few
+      who see that we're encumbered by a legacy of limitations from a time gone
+      by, yet we've forgotten important lessons of the past. You, who are not
+      doomed to repeat it.
     image: "/images/isnt-for-everyone.jpg"
     image_position: "left"
     button_text: "Learn More"
@@ -146,9 +142,9 @@ blocks:
     content: |-
       Do you feel that there's something wrong with the world? You don't know
       what it is, but it's there, like a splinter in your mind...OK, you do
-      know what it is; it's complexity. If you agree, if you dare to follow
-      the tradition of the Rebol Forces, we can show you that there is no 
-      spoon. Join us, and fight sofware complexity.
+      know what it is; it's complexity. If you agree, if you dare to lead others
+      into the future, we can show you that there is no spoon. Join us, and
+      fight sofware complexity.
     image: "/images/one-of-us.jpg"
     image_position: "right"
     button_text: "Start Reducing"
