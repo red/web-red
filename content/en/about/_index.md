@@ -21,9 +21,9 @@ blocks:
     heading: "Lean, Nimble, Flexible"
     content: |-
       The entire toolchain, including a full cross compiler and reactive GUI
-      system, is in a single EXE just over 1MB in size. Drop that EXE in a
-      folder go. Compile to any platform, <i>from</i> any platform. Red 
-      doesn't depend on anything but your OS; the same goes for what you build.
+      system, is in a single EXE just over 1MB in size. Drop it in a folder
+      and go. Compile <i>to</i> any platform, <i>from</i> any platform. Red 
+      depends only on your OS; the same goes for what you build.
       
       Make standalone EXEs, or compile the runtime to be used externally and
       called into from other languages. Need C speed? Write your app in 
@@ -144,7 +144,7 @@ blocks:
       what it is, but it's there, like a splinter in your mind...OK, you do
       know what it is; it's complexity. If you agree, if you dare to lead others
       into the future, we can show you that there is no spoon. Join us, and
-      fight sofware complexity.
+      fight software complexity.
     image: "/images/one-of-us.jpg"
     image_position: "right"
     button_text: "Start Reducing"
