@@ -18,7 +18,7 @@ blocks:
     image_position: "left"
     image_shadow: true
   - template: "media-feature"
-    heading: "Lean, Nimble, Flexible"
+    heading: "Lean. Nimble. Flexible."
     content: |-
       The entire toolchain, including a full cross compiler and reactive GUI
       system, is in a single EXE just over 1MB in size. Drop it in a folder
@@ -128,9 +128,9 @@ blocks:
     content: |-
       Sure, it's easy to use, a no-brainer to install, and has superpowers, but
       it's not for everyone. It's for rebels or, as we call ourselves, Reducers.
-      Those who think there has to be a better way to create software. The few
+      Those who think there must be a better way to create software; the few
       who see that we're encumbered by a legacy of limitations from a time gone
-      by, yet we've forgotten important lessons of the past. You, who are not
+      by, yet we've forgotten important lessons of the past; you, who are not
       doomed to repeat it.
     image: "/images/isnt-for-everyone.jpg"
     image_position: "left"
