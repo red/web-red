@@ -10,8 +10,8 @@ blocks:
       generators, device drivers, an OS...anything you can imagine.<br><br>
             
       With both a REPL and a self-contained toolchain, it's easy to get
-      started. One file. Drop and go. It's also homoiconic, meaning Red
-      is its own data format.<br><br>
+      started. One file. Drop and go. It's also homoiconic. Red is its
+      own data format.<br><br>
         
       Red's Mission: Fight software complexity.
         
