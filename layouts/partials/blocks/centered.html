@@ -7,6 +7,7 @@
             {{ if isset .Params "image" }}
                 <img class="rounded-xl shadow-blurred" src="{{ relURL .Params.image }}" />
             {{ end }}
+            {{- with .Params.content -}}<p class="text-rl-gray-darker">{{ markdownify . }}</p>{{- end -}}
 		</div>
 	</div>
 </section>
