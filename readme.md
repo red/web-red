@@ -16,6 +16,8 @@ This is the site source.
 
 To build for production, run `yarn build`. The rendered site will be in the public/ dir.
 
+If you are using Ubuntu, you can use [this script](https://gist.github.com/rebolek/2f5d8bf785f1e3983e3509cd81a9d2b9) that will download and install everything you need. This has been tested with fresh install of Ubuntu server 19.10.
+
 See other scripts in package.json.
 
 ## Recommended dev environment
