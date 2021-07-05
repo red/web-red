@@ -1,25 +1,32 @@
 - code: |
     ; Say Hello
     print "Hello World!"
+
     ; Refer to values
     a: 1 b: 2
     x: a + b
+
     ; Define functions
     times-2: func [n [number!]][n * 2]
+
     ; Show results in the Red console
     print ["The answer is" times-2 x]
+
     ; Read URLs
     str: read https://www.red-lang.org/
-    ; TBD Set up red-lang URLs that return sample data
+
     ; Load JSON
     res: load https://jsonplaceholder.typicode.com/todos/1
     print ["ID:" res/userId "Title:" mold res/title]
+
     ; Or CSV
     url: https://raw.githubusercontent.com/GSA/data/master/dotgov-domains/current-full.csv
     res: load/as url 'csv
-    ;print ["CSV result contains" length? res/1 "columns and" subtract length? res 1 "rows"]
+    print ["CSV result contains" length? res/1 "columns and" subtract length? res 1 "rows"]
+
     ; Get help in the REPL
     help
+
   description:
     - lang: en
       title: Example 1
