@@ -56,16 +56,16 @@ blocks:
       - title: No Dependencies
         description: Red only uses what your OS provides.
       - title: Native GUI System
-        description: Built right in; Red syntax in an eDSL.
+        description: Built right in; Red syntax in an eDSL. A non-native GUI system is in development.
       - title: VSCode Plugin
         description: Supports help and autocomplete.
 
       - title: High-level Scripting
         description: Think Python, Ruby, or Javascript abstraction level.
       - title: Modern Syntax
-        description: Legacy syntax models don't support things we use all the time.
+        description: Legacy syntax models don't support things we use all the time, like URLS, hashtags, email and IP addresses.
       - title: Built-in Datatypes
-        description: Around 50 of them. Many have direct lexical forms. 
+        description: Around 50 of them. Many have direct lexical forms. Types add meaning.
       - title: Homoiconic
         description: Code is data. Red's ancestor, Rebol, was designed as a messaging language. Red is great even if used only as a data interchange format.
 
@@ -85,7 +85,7 @@ blocks:
       - title: Macro System
         description: Fully hygienic; compile time or runtime.
       - title: Bridging to the JVM
-        description: Android coming soon (experimental now)
+        description: Android without the pain.
 
       - title: Native Code
         description: Compile to machine code; no C or ASM needed.
