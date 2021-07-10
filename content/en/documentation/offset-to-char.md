@@ -1,0 +1,17 @@
+### offset-to-char
+```red
+USAGE:
+     OFFSET-TO-CHAR face pt
+
+DESCRIPTION: 
+     Given a coordinate, returns the corresponding character position. 
+     OFFSET-TO-CHAR is a function! value.
+
+ARGUMENTS:
+     face         [object!] 
+     pt           [pair!] 
+
+RETURNS:
+     [integer!]
+
+```

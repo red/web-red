@@ -1,0 +1,21 @@
+### on-face-deep-change*
+```red
+USAGE:
+     ON-FACE-DEEP-CHANGE* owner word target action new index part state forced?
+
+DESCRIPTION: 
+     Internal use only. 
+     ON-FACE-DEEP-CHANGE* is a function! value.
+
+ARGUMENTS:
+     owner         
+     word          
+     target        
+     action        
+     new           
+     index         
+     part          
+     state         
+     forced?       
+
+```

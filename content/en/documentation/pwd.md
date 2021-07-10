@@ -1,0 +1,10 @@
+### pwd
+```red
+USAGE:
+     PWD 
+
+DESCRIPTION: 
+     Displays the active directory path (Print Working Dir). 
+     PWD is a function! value.
+
+```

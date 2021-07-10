@@ -1,0 +1,16 @@
+### path-thru
+```red
+USAGE:
+     PATH-THRU url
+
+DESCRIPTION: 
+     Returns the local disk cache path of a remote file. 
+     PATH-THRU is a function! value.
+
+ARGUMENTS:
+     url          [url!] "Remote file address."
+
+RETURNS:
+     [file!]
+
+```

@@ -1,0 +1,16 @@
+### a-an
+```red
+USAGE:
+     A-AN str
+
+DESCRIPTION: 
+     Returns the appropriate variant of a or an (simple, vs 100% grammatically correct). 
+     A-AN is a function! value.
+
+ARGUMENTS:
+     str          [string!] 
+
+REFINEMENTS:
+     /pre         => Prepend to str.
+
+```

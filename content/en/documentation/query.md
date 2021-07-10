@@ -1,0 +1,13 @@
+### query
+```red
+USAGE:
+     QUERY target
+
+DESCRIPTION: 
+     Returns information about a file. 
+     QUERY is an action! value.
+
+ARGUMENTS:
+     target       [file! port!] 
+
+```

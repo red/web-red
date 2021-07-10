@@ -1,0 +1,10 @@
+### clear-reactions
+```red
+USAGE:
+     CLEAR-REACTIONS 
+
+DESCRIPTION: 
+     Removes all reactive relations. 
+     CLEAR-REACTIONS is a function! value.
+
+```

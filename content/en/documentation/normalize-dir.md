@@ -1,0 +1,13 @@
+### normalize-dir
+```red
+USAGE:
+     NORMALIZE-DIR dir
+
+DESCRIPTION: 
+     Returns an absolute directory spec. 
+     NORMALIZE-DIR is a function! value.
+
+ARGUMENTS:
+     dir          [file! word! path!] 
+
+```

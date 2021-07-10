@@ -1,0 +1,17 @@
+### get-scroller
+```red
+USAGE:
+     GET-SCROLLER face orientation
+
+DESCRIPTION: 
+     return a scroller object from a face. 
+     GET-SCROLLER is a function! value.
+
+ARGUMENTS:
+     face         [object!] 
+     orientation  [word!] 
+
+RETURNS:
+     [object!]
+
+```

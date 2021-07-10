@@ -1,0 +1,13 @@
+### image?
+```red
+USAGE:
+     IMAGE? value
+
+DESCRIPTION: 
+     Returns true if the value is this type. 
+     IMAGE? is a function! value.
+
+ARGUMENTS:
+     value        [any-type!] 
+
+```

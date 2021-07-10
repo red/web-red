@@ -1,0 +1,16 @@
+### event?
+```red
+USAGE:
+     EVENT? value
+
+DESCRIPTION: 
+     Returns true if the value is this type. 
+     EVENT? is a routine! value.
+
+ARGUMENTS:
+     value        [any-type!] 
+
+RETURNS:
+     [logic!]
+
+```

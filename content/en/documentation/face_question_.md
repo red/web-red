@@ -1,0 +1,16 @@
+### face?
+```red
+USAGE:
+     FACE? value
+
+DESCRIPTION: 
+     Returns TRUE if the value is a face! object. 
+     FACE? is a function! value.
+
+ARGUMENTS:
+     value         "Value to test."
+
+RETURNS:
+     [logic!]
+
+```

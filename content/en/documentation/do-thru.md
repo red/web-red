@@ -1,0 +1,16 @@
+### do-thru
+```red
+USAGE:
+     DO-THRU url
+
+DESCRIPTION: 
+     Evaluates a remote Red script through local disk cache. 
+     DO-THRU is a function! value.
+
+ARGUMENTS:
+     url          [url!] "Remote file address."
+
+REFINEMENTS:
+     /update      => Force a cache update.
+
+```

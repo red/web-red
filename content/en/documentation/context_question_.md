@@ -1,0 +1,16 @@
+### context?
+```red
+USAGE:
+     CONTEXT? word
+
+DESCRIPTION: 
+     Returns the context to which a word is bound. 
+     CONTEXT? is a native! value.
+
+ARGUMENTS:
+     word         [any-word!] "Word to check."
+
+RETURNS:
+     [object! function! none!]
+
+```

@@ -1,0 +1,14 @@
+### find-flag?
+```red
+USAGE:
+     FIND-FLAG? facet flag
+
+DESCRIPTION: 
+     Checks a flag in a face object. 
+     FIND-FLAG? is a routine! value.
+
+ARGUMENTS:
+     facet        [any-type!] 
+     flag         [word!] 
+
+```

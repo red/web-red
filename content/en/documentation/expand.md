@@ -1,0 +1,13 @@
+### expand
+```red
+USAGE:
+     EXPAND blk
+
+DESCRIPTION: 
+     Preprocess the argument block and display the output (console only). 
+     EXPAND is a function! value.
+
+ARGUMENTS:
+     blk          [block!] "Block to expand."
+
+```

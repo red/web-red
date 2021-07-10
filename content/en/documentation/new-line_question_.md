@@ -1,0 +1,16 @@
+### new-line?
+```red
+USAGE:
+     NEW-LINE? position
+
+DESCRIPTION: 
+     Returns the state of the new-line marker within a list series. 
+     NEW-LINE? is a native! value.
+
+ARGUMENTS:
+     position     [any-list!] "Position to change marker."
+
+RETURNS:
+     [any-list!]
+
+```

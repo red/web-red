@@ -1,0 +1,13 @@
+### do-safe
+```red
+USAGE:
+     DO-SAFE code
+
+DESCRIPTION: 
+     Internal Use Only. 
+     DO-SAFE is a function! value.
+
+ARGUMENTS:
+     code         [block!] 
+
+```

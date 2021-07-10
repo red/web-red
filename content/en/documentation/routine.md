@@ -1,0 +1,14 @@
+### routine
+```red
+USAGE:
+     ROUTINE spec body
+
+DESCRIPTION: 
+     Defines a function with a given Red spec and Red/System body. 
+     ROUTINE is a function! value.
+
+ARGUMENTS:
+     spec         [block!] 
+     body         [block!] 
+
+```

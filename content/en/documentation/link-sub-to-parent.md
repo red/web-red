@@ -1,0 +1,16 @@
+### link-sub-to-parent
+```red
+USAGE:
+     LINK-SUB-TO-PARENT face type old new
+
+DESCRIPTION: 
+     Internal Use Only. 
+     LINK-SUB-TO-PARENT is a function! value.
+
+ARGUMENTS:
+     face         [object!] 
+     type         [word!] 
+     old           
+     new           
+
+```

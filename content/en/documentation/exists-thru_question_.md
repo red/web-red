@@ -1,0 +1,13 @@
+### exists-thru?
+```red
+USAGE:
+     EXISTS-THRU? url
+
+DESCRIPTION: 
+     Returns true if the remote file is present in the local disk cache. 
+     EXISTS-THRU? is a function! value.
+
+ARGUMENTS:
+     url          [url! file!] "Remote file address."
+
+```
