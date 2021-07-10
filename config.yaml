@@ -45,7 +45,7 @@ languages:
         - Name: "Documentation"
           Weight: 3
           Identifier: "docs"
-          URL: "/docs/"
+          URL: "https://doc.red-lang.org/"
         - Name: "Blog"
           Weight: 4
           Identifier: "blog"
