@@ -1,5 +1,5 @@
 ---
-title: GPIO Port for Raspberry Pi
+title: GPIO Port for Raspberry Pi - Old
 date: 2019-07-18T20:02:07.000Z
 author: Nenad Rakocevic
 hero_type: image
