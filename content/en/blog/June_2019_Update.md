@@ -19,6 +19,8 @@ hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 
+{{< rawhtml >}}
+
 If you are an active member of the Red community, you will have likely been keeping track of Red's progress through our Gitter rooms and Github repositories, but we wanted to officially bring everyone up to speed with a shiny new blog post. The team has been busy since January on many fronts, multiplexing its efforts on many different branches of development. Here is an overview of what we have been cooking and what is coming.<br />
 <br />
 <span style="font-size: large;">RED Wallet</span><br />
@@ -173,3 +175,4 @@ We plan to give more information about each of those big new additions to the Re
 As several development tracks are coming to fruition in the next couple of months, new articles should come up more frequently.<br />
 <br />
 Go Red Go!
+{{< /rawhtml >}}

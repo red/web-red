@@ -14,6 +14,8 @@ hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 
+{{< rawhtml >}}
+
 We are releasing today the version 0.4.0 of the RED Wallet with several major new features. As a reminder, the RED Wallet aims to be a simple and very secure wallet for the major cryptocurrencies (BTC, ETH, and ERC-20 tokens). Safety is enforced through the mandatory use of a hardware key (Ledger or Trezor keys), which protects against any failure of the wallet app (being it a bug or an attacker). The RED Wallet code is fully written in Red (using the <a href="https://static.red-lang.org/red-system-specs-light.html" target="_blank">Red/System DSL</a> for USB drivers implementation) and <a href="https://github.com/red/wallet" target="_blank">open source</a>.<br />
 <br />
 <span style="font-size: large;">BTC support</span><br />
@@ -92,3 +94,4 @@ If you want to check if your RED Wallet binary has been tampered with in any way
 <br />
 Enjoy!<br />
 <br />
+{{< /rawhtml >}}

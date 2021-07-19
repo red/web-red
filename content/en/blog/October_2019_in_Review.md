@@ -10,6 +10,8 @@ tags:
 hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
+
+{{< rawhtml >}}
 Over the last few weeks the Red Lang core team drilled down to make some truly great progress on Red's fast-lexer branch--while we also gained valuable support from the contributions of Red doers and makers as they consolidate a world of useful information and resources.<br />
 <b><br /></b>
 <br />
@@ -45,3 +47,4 @@ Wondering about <span style="color: #6aa84f; font-family: &quot;courier new&quot
 <span style="font-weight: normal;">Games and Experiments</span></h3>
 <br />
 It's <a href="https://gitter.im/red/red/gui-branch?at=5d91f526fcb47b627fefd967">a fun one</a> to end this update on: Red community member <a href="https://github.com/GalenIvanov">@GalenIvanov</a>'s "Island Alleys," a game of unspooling Hamiltonian paths! A path of this type only allows its line, which inscribes a closed loop, to cross through a vertex within a graph once, a process which can lend itself to neural network-related interpretations. And <a href="https://gitter.im/red/red/gui-branch?at=5d91f526fcb47b627fefd967">@planetsizedcpu</a> offers a wintry little spin on <a href="https://github.com/planetsizecpu/Cave-In">this repo</a>. Enjoy, and thanks to all!
+{{< /rawhtml >}}

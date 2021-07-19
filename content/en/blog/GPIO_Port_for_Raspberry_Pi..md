@@ -1,5 +1,5 @@
 ---
-title: GPIO Port for Raspberry Pi - Old
+title: GPIO Port for Raspberry Pi
 date: 2019-07-18T20:02:07.000Z
 author: Nenad Rakocevic
 hero_type: image
@@ -13,6 +13,8 @@ tags:
   - hardware
   - hack
 ---
+
+{{< rawhtml >}}
 As part of the R&amp;D work on port! datatype in port-type branch, we have implemented a <a href="https://en.wikipedia.org/wiki/General-purpose_input/output" target="_blank">GPIO</a>&nbsp;driver for <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi</a> boards, as a <span style="color: #6aa84f; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">gpio://</span> scheme (no third-party library needed). This work helped define the low-level API for ports written in purely Red/System or a mix of Red and Red/System.<br />
 <br />
 The Raspberry Pi is a very popular board with millions of units sold, so this is a market where Red could be potentially helpful to developers. We could run Red on such boards for years but did not have proper GPIO support, so this is now fixed!<br />
@@ -48,7 +50,7 @@ You can find the breadboard layout below made using <a href="http://fritzing.org
 <br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-wRywhI8BmQo/XTCAtGzwS0I/AAAAAAAAAes/CC3YV4GOp_8k9I7SM_C_VtNPKDaHiMtuACLcBGAs/s1600/RPi3-joypad_bb.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1377" data-original-width="1080" height="400" src="https://1.bp.blogspot.com/-wRywhI8BmQo/XTCAtGzwS0I/AAAAAAAAAes/CC3YV4GOp_8k9I7SM_C_VtNPKDaHiMtuACLcBGAs/s400/RPi3-joypad_bb.png" width="311" /></a></div>
+<a href="/images/blog/RPi3-joypad_bb.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="1377" data-original-width="1080" height="400" src="/images/blog/RPi3-joypad_bb.png" width="311" /></a></div>
 <br />
 The source code of Redbox has been modified to add GPIO support, you can find the modified code <a href="https://gist.github.com/dockimbel/46b358bdda64f60c7f7aaa9e2bc32033" target="_blank">here</a>. The GPIO-related code is enclosed in a context:<br />
 <br />
@@ -180,3 +182,4 @@ Wait for a given duration:
 <br />
 Happy hardware hacking! ;-)<br />
 <br />
+{{< /rawhtml >}}

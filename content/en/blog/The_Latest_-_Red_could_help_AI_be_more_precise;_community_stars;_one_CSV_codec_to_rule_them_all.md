@@ -14,6 +14,8 @@ hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 
+{{< rawhtml >}}
+
 Hello to all the great makers, doers and creative people who are using Red, helping the Red Language grow and improve!
 
 As always, there's a standing invitation for you to join us on <a href="https://gitter.im/red/help" target="_blank">Gitter</a>, <a href="https://t.me/redofficial" target="_blank">Telegram</a> or <a href="https://github.com/red" target="_blank">Github</a> (if you haven't already) to ask questions and tell us about your Red-powered projects.<br />
@@ -48,3 +50,4 @@ In conversation with @ameridroid:<br />
 Check back in the next few days for an update from @dockimbel!<br />
 <br />
 Ideas, contributions, feedback? Leave a comment here, or c’mon over and join our conversation on&nbsp;<a href="https://t.me/redofficial" target="_blank">Telegram</a>,&nbsp;<a href="https://gitter.im/red/help" target="_blank">Gitter</a>,&nbsp;or&nbsp;<a href="https://github.com/red" target="_blank">Github</a>.
+{{< /rawhtml >}}

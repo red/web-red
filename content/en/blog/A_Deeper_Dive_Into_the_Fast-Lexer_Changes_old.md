@@ -8,6 +8,8 @@ tags:
 hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
+
+{{< rawhtml >}}
 <h3 style="text-align: left;">
 What made the fast-lexer branch a priority?</h3>
 <div style="text-align: left;">
@@ -48,3 +50,4 @@ An additional benefit was brought by&nbsp;<a href="https://github.com/qtxie">@qt
 <a href="https://github.com/dockimbel">@Dockimbel</a>&nbsp;is almost done with the lexer itself, just <span style="color: #6aa84f; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;">date! </span><span style="font-family: inherit;">and</span><span style="color: #6aa84f; font-family: &quot;courier new&quot; , &quot;courier&quot; , monospace;"> time!</span> to add, and it should be possible to replace the old one with the new one after thorough testing and debugging. Then, we'll add the hooks for a user-provided callback, allowing us to instrument the lexer in ways Redbolers could only dream about until now. One application of that will be the ability to implement "predictive loading," which will tell you the type and size of a Red value in a string, without loading it, and at extremely high speed (~370MB/s currently, 1-2GB/s with /Pro). Such a feature will allow us to finally address the <a href="https://github.com/red/red/issues/3606">#3606 issue</a>&nbsp;with a very clean and efficient solution, while keeping the facet's auto-syncing feature.</div>
 <div style="text-align: left;">
 <br /></div>
+{{< /rawhtml >}}
