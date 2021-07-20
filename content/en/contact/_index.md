@@ -11,4 +11,8 @@ to Red. Once you introduce yourself, we can help you find the right room
 for topics you're interested in...and how deep the rabbit hole goes.
 
 
+You can also watch our [progress page](https://progress.red-lang.org/)
+to see what's work is being done on a regular basis.
+
+
 Welcome!
