@@ -4,6 +4,8 @@ download:
   other: Download Red
 contact:
   other: Join Us
+contact_heading:
+  other: Stay in Wonderland
 cta_heading: 
   other: "Don't just wait for new blog entries; join us on Gitter"
 cta_desc: 
