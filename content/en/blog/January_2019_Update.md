@@ -14,6 +14,7 @@ hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 
+{{< rawhtml >}}
 <br />
 <br />
 <h2>
@@ -169,3 +170,4 @@ Hectic 2018 barely passed by, but we're already steering wheels on our <a href="
 <li><a href="https://www.blogger.com/null" name="footnote-3"></a> "X" here stands for eXecutable and eXtendable.</li>
 </ol>
 <br />
+{{< /rawhtml >}}

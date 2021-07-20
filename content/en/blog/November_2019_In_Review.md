@@ -15,6 +15,7 @@ hero_type: image
 hero_src: https://images.pexels.com/photos/993019/pexels-photo-993019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940
 ---
 
+{{< rawhtml >}}
 <i>Welcome to December, friends of Red. It's an intent and focused time of year as we wind down 2019, and the core team is making important moves (sometimes literally!) to set us up for an ambitious 2020. But first, here are just a few things that happened in November.</i><br />
 <ul>
 <li>First and foremost, it's always great when community members help compile resources for use by others, and we'd like to acknowledge @rebolek for his excellent compendium of historic automatic builds: <a href="https://rebolek.com/builds/">https://rebolek.com/builds/</a>&nbsp;(they weren't available for a hot minute, but now they're back). They can be useful if you're in need of a previous version for a specific project. Of course, you can always go <a href="https://www.red-lang.org/p/download.html">here</a> for Red's daily automated builds. But seeing as how we've a goal of being a self-sustaining, self-selecting group of do-ers, this spirit of providing collective resources is perfectly aligned with the Red-Lang we always want to be.&nbsp;</li>
@@ -32,3 +33,4 @@ All the warmest wishes for the upcoming holidays, from the Red family to yours. 
 <br />
 -Lucinda.<br />
 <br />
+{{< /rawhtml >}}
