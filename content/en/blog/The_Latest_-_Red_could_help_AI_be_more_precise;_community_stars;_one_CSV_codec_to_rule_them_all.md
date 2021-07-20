@@ -25,7 +25,7 @@ Here are some recent highlights we’d like to share with you:<br />
 <h4>
 1. Tickets Get Priority</h4>
 In the last month, our core team has closed a large number of tickets.We’d like to thank community members <a href="https://github.com/red/red/issues/4006" target="_blank">rgchris</a>, <a href="https://github.com/red/red/issues/3950" target="_blank">giesse</a>, and <a href="https://github.com/red/red/issues/3915" target="_blank">dumblob</a> who are just a few of the passionate contributors putting Red through its paces and providing feedback as fixes and changes occur. @WArP ran the numbers for us, showing a cyclical growth pattern linking bursts of closed issues and some serious Red progress, and September’s not even done yet!...:<br />
-<img height="246" src="https://lh4.googleusercontent.com/YDTKrNALQF7Q_z27RQE1Z9CYPT4rihiZaRcoFG55Jw4MlOVps7NlIH14sVHbns5Qhrq_Khx1UyJq7NshSk9-sZYods6RgfVWUZAEacC7b1oSYU6lqnAz9wFDO-SjDXfU1XECdl4T" style="background-color: white; color: #222222; font-family: arial; font-size: 11pt; margin-left: 0px; margin-top: 0px; white-space: pre-wrap;" title="Chart" width="398" /><br />
+<img height="246" src="/images/blog/imageLikeEmbed.png" style="background-color: white; color: #222222; font-family: arial; font-size: 11pt; margin-left: 0px; margin-top: 0px; white-space: pre-wrap;" title="Chart" width="398" /><br />
 <br />
 <h4>
 2. CSV Codec Available</h4>

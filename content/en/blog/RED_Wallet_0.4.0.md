@@ -30,13 +30,13 @@ The RED Wallet now supports the bitcoin network. The main features are:<br />
 <div>
 <br /></div>
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-OtkhJq9FfoE/XSTLjyX9ASI/AAAAAAAAAdw/syy0dljJXOkyx1FUGHbsP7Q31nnyda_FQCLcBGAs/s1600/wallet040.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="400" data-original-width="908" height="175" src="https://1.bp.blogspot.com/-OtkhJq9FfoE/XSTLjyX9ASI/AAAAAAAAAdw/syy0dljJXOkyx1FUGHbsP7Q31nnyda_FQCLcBGAs/s400/wallet040.png" width="400" /></a></div>
+<a href="/images/blog/wallet040.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="400" data-original-width="908" height="175" src="/images/blog/wallet040.png" width="400" /></a></div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
 </div>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-699qVBPcxI8/XSTLmbuewXI/AAAAAAAAAd0/e-dxXa1wgWUwYUV4Wtg4ZIFwQXCX88epACLcBGAs/s1600/wallet040-4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="752" data-original-width="946" height="317" src="https://1.bp.blogspot.com/-699qVBPcxI8/XSTLmbuewXI/AAAAAAAAAd0/e-dxXa1wgWUwYUV4Wtg4ZIFwQXCX88epACLcBGAs/s400/wallet040-4.png" width="400" /></a></div>
+<a href="/images/blog/wallet040-4.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="752" data-original-width="946" height="317" src="/images/blog/wallet040-4.png" width="400" /></a></div>
 <br />
 The balance retrieval can be quite slow on the bitcoin network, so be patient.<br />
 <br />
@@ -50,7 +50,7 @@ As a reminder, BIP44 address derivation support is present in the wallet since 0
 Batch transactions were introduced in 0.2.0, they now work for any ERC-20 tokens in addition to ETH. They can be accessed from a contextual menu using a right click on an ETH account.<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-PfZg-yabut8/XSTLmZAZsiI/AAAAAAAAAeM/vULyOdVP5LcdLImnfnEl3wQJqSBW6D2PgCEwYBhgL/s1600/wallet040-3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="763" data-original-width="1238" height="246" src="https://1.bp.blogspot.com/-PfZg-yabut8/XSTLmZAZsiI/AAAAAAAAAeM/vULyOdVP5LcdLImnfnEl3wQJqSBW6D2PgCEwYBhgL/s400/wallet040-3.png" width="400" /></a></div>
+<a href="/images/blog/wallet040-3.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="763" data-original-width="1238" height="246" src="/images/blog/wallet040-3.png" width="400" /></a></div>
 <br />
 <br />
 <span style="font-size: large;">TREZOR Key</span><br />
@@ -65,7 +65,7 @@ The RED Wallet has updated the firmware support:<br />
 TREZOR model T is fully supported on macOS. On Windows 7, if the key is not recognized, you need to install the <a href="https://wallet.trezor.io/#/" target="_blank">TREZOR bridge</a> first.<br />
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="https://1.bp.blogspot.com/-LF_AZb4PL30/XSTPr2k-tOI/AAAAAAAAAeU/g9FLlrtuDngVsTCkt1Jo0LokmktHbFTWACLcBGAs/s1600/wallet040-5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="551" data-original-width="968" height="227" src="https://1.bp.blogspot.com/-LF_AZb4PL30/XSTPr2k-tOI/AAAAAAAAAeU/g9FLlrtuDngVsTCkt1Jo0LokmktHbFTWACLcBGAs/s400/wallet040-5.png" width="400" /></a></div>
+<a href="/images/blog/wallet040-5.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="551" data-original-width="968" height="227" src="/images/blog/wallet040-5.png" width="400" /></a></div>
 <br />
 <span style="font-size: large;">Bug fixes</span><br />
 <br />
@@ -81,8 +81,8 @@ TREZOR model T is fully supported on macOS. On Windows 7, if the key is not reco
 <span style="font-size: large;"><br /></span>
 <br />
 <div style="text-align: center;">
-<a class="dl-button" href="https://static.red-lang.org/wallet/dl/win/RED-Wallet.exe" style="color: white;">Windows 7/8/10 <el style="color: black;"> [494 KB]</el></a>
- <a class="dl-button" href="https://static.red-lang.org/wallet/dl/mac/RED-Wallet.zip" style="color: white;">macOS 10.1x <el style="color: black;"> [491 KB]</el></a>
+<a class="dl-button" href="https://static.red-lang.org/wallet/dl/win/RED-Wallet.exe" style="color: dark red;">Windows 7/8/10 <el style="color: black;"> [494 KB]</el></a>
+ <a class="dl-button" href="https://static.red-lang.org/wallet/dl/mac/RED-Wallet.zip" style="color: dark red;">macOS 10.1x <el style="color: black;"> [491 KB]</el></a>
 </div>
 <br />
 <br />
