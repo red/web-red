@@ -2,8 +2,14 @@ about:
   other: About Red
 download:
   other: Download Red
+cta_heading: 
+  other: "Don't just wait for new blog entries; join us on Gitter"
+cta_desc: 
+  other: "Chat with the team, keep up with the latest design issues, and be part of a great community"
 cta_narrow_heading: 
   other: "Download the Latest Stable Version of Red"
+cta_narrow_text: 
+  other: "Join us on Gitter"
 latest_blog:
   other: Latest Blog Post
 read_more:
