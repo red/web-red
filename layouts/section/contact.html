@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<div>
+    {{ partial "page-title" (dict "title" .Title "subtitle" .Params.subtitle "page" .Params)}}
+
+    <div class="container mx-auto mt-12 px-2 md:px-8">
+        <div class="grid grid-columns-1 md:grid-columns-2">
+
+            <div class="px-2 md:px-8 py-4 text-rl-gray">
+                <h3 class="font-semibold text-2xl text-rl-gray rl-l-title-underline">{{ i18n "contact_heading" }}</h3>
+
+                <div class="text-grey-darker">
+                    {{ .Content }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+{{ end }}

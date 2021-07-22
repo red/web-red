@@ -2,8 +2,19 @@ about:
   other: About Red
 download:
   other: Download Red
+contact:
+  other: Join Us
+contact_heading:
+  other: Stay in Wonderland
+cta_heading: 
+  other: "Don't just wait for new blog entries; join us on Gitter"
+cta_desc: 
+  other: "Chat with the team, keep up with the latest design issues, and be part of a great community"
 cta_narrow_heading: 
   other: Download the Latest Stable Version of Red
+  other: "We're on a Mission to Fight Software Complexity"
+cta_narrow_text: 
+  other: "Join us!"
 latest_blog:
   other: Latest Blog Post
 read_more:
