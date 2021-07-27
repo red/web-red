@@ -1,6 +1,8 @@
 ---
 title: About
-subtitle: Red is a deep, powerful language, inspired by Rebol.<br>Its mission, to fight software complexity.
+subtitle: |
+  Red is a deep, powerful language, inspired by Rebol. \
+  Its mission, to fight software complexity.
 blocks:
   - template: "media-feature"
     heading: "Red Can Do It All"
