@@ -1,6 +1,8 @@
 ---
 title: About
-subtitle: Red is a deep, powerful language, inspired by Rebol.<br>Its mission, to fight software complexity.
+subtitle: |
+  Red is a deep, powerful language, inspired by Rebol. \
+  Its mission, to fight software complexity.
 blocks:
   - template: "media-feature"
     heading: "Red Can Do It All"
@@ -22,7 +24,7 @@ blocks:
     content: |-
       The entire toolchain, including a full cross compiler and reactive GUI
       system, is in a single EXE just over 1MB in size. Drop it in a folder
-      and go. Compile <i>to</i> any platform, <i>from</i> any platform. Red 
+      and go. Compile *to* any platform, *from* any platform. Red 
       depends only on your OS; the same goes for what you build.
       
       Make standalone EXEs, or compile the runtime to be used externally and
