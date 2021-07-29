@@ -8,15 +8,15 @@ subtitle: Your world is about to change. Welcome to Red.
 <h3>Windows</h3>
 <a href="https://static.red-lang.org/dl/auto/win/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/win/red-latest.zip">zipped</a>
 
-<h3>Linux (*)</h3> 
-<a href="https://static.red-lang.org/dl/auto/linux/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/linux/red-latest.zip">zipped</a>
-
 <h3>Mac OS</h3>
 <a href="https://static.red-lang.org/dl/auto/mac/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/mac/red-latest.zip">zipped</a><br>
+
+<h3>Linux (*)</h3> 
+<a href="https://static.red-lang.org/dl/auto/linux/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/linux/red-latest.zip">zipped</a><br>
 <br>
 <ul>
     <li>
-        <b>(*)</b> For Linux 64-bit distros, you need to install 32-bit supporting libraries. So, for Debian-based distros, install them using:<br>
+        For Linux 64-bit distros, you need to install 32-bit supporting libraries. So, for Debian-based distros, install them using:<br>
         <code>sudo apt-get install ia32-libs libc6-i386 libcurl3</code>
     </li><br>
     <li>
