@@ -8,26 +8,19 @@
             <div class="">
                 <h3 class="font-semibold text-2xl text-rl-gray rl-l-title-underline">To install Red locally...</h3>
                 <p class="text-grey-darker">Download the correct Red binary version for your computer from here (takes only a few seconds, it's less than 1MB). Save into a suitable folder.
-<br><br>
-                    For Windows users: Run it by double-clicking on the Red binary file.<br> 
-                    It will then automatically build the Red GUI-console.<br>
-                   Next time you double-click on the file, the GUI-console will automatically open.
-<br> <br>                   
-For Linux/OSX users: You need to open a terminal app to be able to run Red. <br>
-                    Once you have opened the terminal app, change to the directory in which you saved Red. <br>
-                    Now do a: chmod u+x <red-binary> which will make sure that Red can be run on your computer. <br>
-                    After that, run Red using ./<red-binary>. This will build the Red console. <br>
-                    Next time you run Red, the console will automatically open.</p>
+                    <br><br> For Windows users: Run it by double-clicking on the Red binary file.<br> It will then automatically build the Red GUI-console.<br> Next time you double-click on the file, the GUI-console will automatically open.
+                    <br> <br> For Linux/OSX users: You need to open a terminal app to be able to run Red. <br> Once you have opened the terminal app, change to the directory in which you saved Red. <br> Now do a: <b>chmod u+x &ltred-binary&gt</b> which
+                    will make sure that Red can be run on your computer. <br> After that, run Red using <b>./&ltred-binary&gt</b>. This will build the Red console. <br> Next time you run Red, the console will automatically open.</p>
             </div>
         </div>
     </section>
 
     {{ with .Content }}
-        <section class="container mx-auto mt-12 px-2 md:px-8 pb-8 text-grey-darker content">
-            {{ . }}
-        </section>
+    <section class="container mx-auto mt-12 px-2 md:px-8 pb-8 text-grey-darker content">
+        {{ . }}
+    </section>
     {{ end }}
-    
+
 </div>
 
 {{ end }}
