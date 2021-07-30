@@ -5,14 +5,7 @@ subtitle: Your world is about to change. Welcome to Red.
 
 {{< rawhtml >}}
 
-<h3>Windows</h3>
-<a href="https://static.red-lang.org/dl/auto/win/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/win/red-latest.zip">zipped</a>
-
-<h3>Mac OS</h3>
-<a href="https://static.red-lang.org/dl/auto/mac/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/mac/red-latest.zip">zipped</a><br>
-
-<h3>Linux (*)</h3> 
-<a href="https://static.red-lang.org/dl/auto/linux/red-latest.exe">raw binary</a>, <a href="https://static.red-lang.org/dl/auto/linux/red-latest.zip">zipped</a><br>
+<h2>(*) Instructions for Linux and Unix</h2>
 <br>
 <ul>
     <li>
