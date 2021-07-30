@@ -7,11 +7,18 @@ subtitle: Everything you need to know to install Red locally and begin writing y
 
 Here is a step by step guide of how to install Red locally:
 
-1. Download the correct Red binary version for your computer [from here](/download/) (takes only a few seconds, it's less than 1MB). Save into a suitable folder.
+1. Download the correct Red binary version for your computer [from here](/download/) (takes only a few seconds, it's less than 1MB). Save into a suitable folder.  
+
 2. For Windows users, run it by double-clicking on the Red binary file. It will then automatically build the Red GUI-console. Next time you double-click on the file, the GUI-console will automatically open.
+
 3. For Linux/OSX users, you need to open a terminal app to be able to run Red. Once you have opened the terminal app, change to the directory in which you saved Red. Now do a: `chmod u+x <red-binary>` which will make sure that Red can be run on your computer. After that simply run Red using `./<red-binary>`. This will build the Red console. Next time you run Red, the console will automatically open.
 
-Done! No installer, no setup, no dependencies(*)! What, that's all? Yes, there was a time when software used to be done right, that's what we aim at bringing back. ;-)
+{{< rawhtml >}}
+<br>
+Done! No installer, no setup, no dependencies(*)!<br> 
+What, that's all? Yes, there was a time when software used to be done right, that's what we aim at bringing back. ;-)
+<br><br>
+{{< /rawhtml >}}
 
 _(*) We have a temporary dependency on `libcurl3` for Linux platform, so in case it is not installed or if you are running a 64-bit Linux, please check extra instructions from our [download page](/download/)._
 
@@ -109,6 +116,7 @@ You can now continue your journey discovering all the great features of Red thro
 * [Chatting](https://gitter.im/red/red) with the Red community and asking questions to the Red contributors.
 * Explore the [red/red](https://github.com/red/red) repository on Github and have a look at the source code.
 * Try some of the samples in [red/code](https://github.com/red/code).
-* Install the [Visual Studio Code](https://code.visualstudio.com/) IDE with the [Red extension](https://marketplace.visualstudio.com/items?itemName=red-auto.red).
+* Install the [Visual Studio Code](https://code.visualstudio.com/) IDE with the [Red extension](https://marketplace.visualstudio.com/items?itemName=red-auto.red).    
 
-Happy coding/hacking and have fun...that's the whole point! ;-)
+
+#### Happy coding/hacking, and have fun...that's the whole point! ;-)

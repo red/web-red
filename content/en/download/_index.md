@@ -5,7 +5,7 @@ subtitle: Your world is about to change. Welcome to Red.
 
 {{< rawhtml >}}
 
-<h2>(*) Instructions for Linux and Unix</h2>
+<h2>(*) Extra instructions for Linux and Unix</h2>
 <br>
 <ul>
     <li>
@@ -48,10 +48,10 @@ subtitle: Your world is about to change. Welcome to Red.
     </ul>
 <br>
 
-<h2>Compiling</h2>
+<h2>Start Reducing</h2>
     <ul>
         <li>
-            Step by step instructions for compiling your first script can be found <a href="https://github.com/dockimbel/Red/blob/master/README.md">here</a>.
+            Step by step instructions for begining your first project, and compiling your first script can be found <a href="/getting-started/">here</a>.
         </li>
     </ul>
 
