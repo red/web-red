@@ -119,4 +119,6 @@ You can now continue your journey discovering all the great features of Red thro
 * Install the [Visual Studio Code](https://code.visualstudio.com/) IDE with the [Red extension](https://marketplace.visualstudio.com/items?itemName=red-auto.red).    
 
 
-#### Happy coding/hacking, and have fun...that's the whole point! ;-)
+## Happy coding/hacking, and have fun...that's the whole point! ;-)
+
+Join us on [Gitter](https://gitter.im/red/red/welcome) to chat.
