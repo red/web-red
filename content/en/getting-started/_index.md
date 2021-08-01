@@ -40,7 +40,7 @@ red>> view [text "Hello World!"]
 Now try something more sophisticated:
 
 ```
-red>> view [name: field button "Hi" [print ["Hi" name/text]]]
+red>> view [name: field button "Hi" [alert ["Hi" name/text]]]
 ```
 
 Yes, GUI programming can be that easy! See more about GUI capabilities in this GUI [release post](http://www.red-lang.org/2016/03/060-red-gui-system.html) and have a look into the View [reference documentation](https://doc.red-lang.org/gui/View.html).
