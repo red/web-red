@@ -62,6 +62,10 @@ languages:
           Weight: 7
           Identifier: "gettingstarted"
           URL: "/getting-started/"
+        - Name: "Showcase"
+          Weight: 5
+          Identifier: "showcase"
+          URL: "/showcase/"
   fr:
     LanguageName: "Français"
     ContentDir: content/fr
