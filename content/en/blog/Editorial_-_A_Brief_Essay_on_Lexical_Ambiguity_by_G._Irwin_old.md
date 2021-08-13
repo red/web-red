@@ -2,7 +2,7 @@
 date: 2019-11-20T20:01:17-05:00
 title: Editorial - A Brief Essay on Lexical Ambiguity by G. Irwin
 author: Gregg Irwin
-category: opinion
+category: Opinion
 tags:
   - lexicon
   - ambiguity
