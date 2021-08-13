@@ -1,7 +1,7 @@
 ---
 title: Showcase
 subtitle: |
-  Examples of the breadth and depth of Red, and its wide applicability. Each application is complete with no external dependencies.
+  Examples of the breadth and depth of Red, and its wide applicability. Each application is complete, with no external dependencies.
 ---
 
 {{< rawhtml >}}
@@ -21,7 +21,7 @@ subtitle: |
   </div>
   <div class="w-full p-2 rounded lg:w-1/3">
       Fast Mandelbrot
-      <a href="https://gitlab.com/hiiamboris/red-spaces"><img class="animated-gif" src="/images/showcase/fast-mandel.gif" alt="red-codex"></a>
+      <a href="https://github.com/red/code/blob/master/Scripts/mandelbrot-fast.red"><img class="animated-gif" src="/images/showcase/fast-mandel.gif" alt="red-codex"></a>
   </div>
   <div class="w-full p-2 rounded lg:w-1/3">
       Ballots
