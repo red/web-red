@@ -32,6 +32,7 @@ subtitle: |
       <a href="https://github.com/GalenIvanov/Graphics-Red/blob/master/TruTiles.red"><img class="animated-gif" src="/images/showcase/trutiles.gif" alt="trutiles"></a>
   </div>
 </div>
+
 {{< /rawhtml >}}
 
 ## Explore more
@@ -42,4 +43,4 @@ subtitle: |
 
 - The Red crypto wallet lives [here](https://github.com/red/wallet).
 
-- Check out these Reducers for more projects, and some great code: [Boleslav](https://gitlab.com/rebolek), [Boris](https://gitlab.com/hiiamboris), [Toomas](https://github.com/toomasv/)
+- Check out these Reducers for more projects, and some great code: [Boleslav](https://gitlab.com/rebolek), [Boris](https://gitlab.com/hiiamboris), [Francois](https://github.com/ldci), [Toomas](https://github.com/toomasv/)
