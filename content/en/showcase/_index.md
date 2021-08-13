@@ -36,8 +36,10 @@ subtitle: |
 
 ## Explore more
 
-- The red/code repository (demos and scripts) can be found [here](https://github.com/red/code) 
+- The __red/code__ repository (demos and scripts) can be found [here](https://github.com/red/code) 
 
-- Browse scripts from the community [here](https://github.com/red/community).
+- See scripts from the community [here](https://github.com/red/community).
 
 - The Red crypto wallet lives [here](https://github.com/red/wallet).
+
+- Check out these Reducers for more projects, and some great code: [Boleslav](https://gitlab.com/rebolek), [Boris](https://gitlab.com/hiiamboris), [Toomas](https://github.com/toomasv/)
