@@ -55,13 +55,17 @@ languages:
           Identifier: "roadmap"
           URL: "/roadmap/"
         - Name: "Download"
-          Weight: 6
+          Weight: 7
           Identifier: "download"
           URL: "/download/"
         - Name: "Getting Started"
-          Weight: 7
+          Weight: 8
           Identifier: "gettingstarted"
           URL: "/getting-started/"
+        - Name: "Showcase"
+          Weight: 6
+          Identifier: "showcase"
+          URL: "/showcase/"
   fr:
     LanguageName: "Français"
     ContentDir: content/fr
