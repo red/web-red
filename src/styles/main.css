@@ -3,92 +3,107 @@
  */
 
 .text-theme-primary {
-	@apply .text-rl-gray;
+    @apply .text-rl-gray;
 }
 
 .bg-theme-primary {
-	@apply .bg-rl-light-blue;
+    @apply .bg-rl-light-blue;
 }
 
 .bg-theme-gradient {
-	background-image: linear-gradient(
-		to bottom,
-		config('colors.rl-light-blue'),
-		config('colors.rl-deep-blue')
-	);
+    background-image: linear-gradient( to bottom, config('colors.rl-light-blue'), config('colors.rl-deep-blue'));
 }
 
 .bg-theme-gradient-reverse {
-	background-image: linear-gradient(
-		to top,
-		config('colors.rl-light-blue'),
-		config('colors.rl-deep-blue')
-	);
+    background-image: linear-gradient( to top, config('colors.rl-light-blue'), config('colors.rl-deep-blue'));
 }
 
 .mobile-theme-menu {
-	@apply .text-blue-lighter .border-blue-light;
+    @apply .text-blue-lighter .border-blue-light;
 }
 
 .mobile-theme-menu:hover {
-	@apply .text-white .border-white;
+    @apply .text-white .border-white;
 }
+
 
 /**
  * Other site-specific styles
  */
 
 .curve-bg {
-	/* Note that the fill color for the curve here must match the page background color */
-
-	background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 1114" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.414;"><path d="M-0.462,191.068l1440.82,0l0,-192c0,0 -91.43,96.47 -748.423,91.498c-628.009,-4.753 -692.392,100.502 -692.392,100.502Z" style="fill:#eee;"/></svg>');
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	padding-top: 12vw;
+    /* Note that the fill color for the curve here must match the page background color */
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 1114" xmlns="http://www.w3.org/2000/svg" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.414;"><path d="M-0.462,191.068l1440.82,0l0,-192c0,0 -91.43,96.47 -748.423,91.498c-628.009,-4.753 -692.392,100.502 -692.392,100.502Z" style="fill:#eee;"/></svg>');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 12vw;
 }
 
 .curve-top {
-	background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 1114" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M1440.353-.932H-.462v192s91.43-96.47 748.423-91.498C1375.97 104.323 1440.353-.932 1440.353-.932z" fill="#eee"/></svg>'),
-		linear-gradient(to top, config('colors.rl-light-blue'), config('colors.rl-deep-blue'));
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	padding-top: 12vw;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 1114" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M1440.353-.932H-.462v192s91.43-96.47 748.423-91.498C1375.97 104.323 1440.353-.932 1440.353-.932z" fill="#eee"/></svg>'), linear-gradient(to top, config('colors.rl-light-blue'), config('colors.rl-deep-blue'));
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    padding-top: 12vw;
 }
 
 .bg-sun {
-	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="738" height="738"><circle cx="420" cy="319" r="344" fill="#ECBB34" fill-opacity=".25" fill-rule="evenodd" stroke="#ECBB34" stroke-opacity=".1" stroke-width="50" transform="translate(-51 50)"/></svg>');
-	background-repeat: no-repeat;
-	background-size: 640px;
-	background-position: left top;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="738" height="738"><circle cx="420" cy="319" r="344" fill="#ECBB34" fill-opacity=".25" fill-rule="evenodd" stroke="#ECBB34" stroke-opacity=".1" stroke-width="50" transform="translate(-51 50)"/></svg>');
+    background-repeat: no-repeat;
+    background-size: 640px;
+    background-position: left top;
 }
 
 .subtitle a {
-	@apply .text-rl-gray;
+    @apply .text-rl-gray;
 }
 
 .toc ul {
-	@apply .list-reset;
+    @apply .list-reset;
 }
 
 .border-b-faint {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* stylelint-disable-next-line */
-#TableOfContents > ul > li > ul > li {
-	@apply .py-2;
-}
 
 /* stylelint-disable-next-line */
-#TableOfContents > ul > li > ul > li:not(:last-child) {
-	@apply .border-b-faint;
+
+#TableOfContents>ul>li>ul>li {
+    @apply .py-2;
 }
 
+
 /* stylelint-disable-next-line */
-#TableOfContents > ul > li > ul > li > ul > li {
-	@apply .py-2 .pl-4;
+
+#TableOfContents>ul>li>ul>li:not(:last-child) {
+    @apply .border-b-faint;
+}
+
+
+/* stylelint-disable-next-line */
+
+#TableOfContents>ul>li>ul>li>ul>li {
+    @apply .py-2 .pl-4;
 }
 
 .toc a {
-	@apply .text-rl-gray .no-underline;
+    @apply .text-rl-gray .no-underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
