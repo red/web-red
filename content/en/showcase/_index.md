@@ -8,12 +8,12 @@ subtitle: |
 
 <div class="grid">
   <a href="https://www.redlake-tech.com/products/diagrammar-for-windows/">
-    <h3>Diagrammar</h3>
-    <img src="/images/showcase/diagrammar2.png" alt="diagrammar">
+    <h3>DiaGrammar</h3>
+    <img src="/images/showcase/diagrammar2.png" alt="DiaGrammar">
   </a>
   <a href="https://github.com/planetsizecpu/Cave-In">
     <h3>Cave-In</h3>
-    <img class="animated-gif" src="/images/showcase/cave-in.gif" alt="cave-in">
+    <img class="animated-gif" src="/images/showcase/cave-in.gif" alt="Cave-In">
   </a>
   <a href="https://github.com/red/red/tree/master/tests/libRed">
     <h3>LibRed</h3>
@@ -25,11 +25,11 @@ subtitle: |
   </a>
   <a href="https://github.com/red/code/tree/master/Showcase/ballots">
     <h3>Ballots</h3>
-    <img class="animated-gif" src="/images/showcase/ballots2.gif" alt="ballots">
+    <img class="animated-gif" src="/images/showcase/ballots2.gif" alt="Ballots">
   </a>
   <a href="https://github.com/GalenIvanov/Graphics-Red/blob/master/TruTiles.red">
     <h3>TruTiles</h3>
-    <img class="animated-gif" src="/images/showcase/trutiles.gif" alt="trutiles">
+    <img class="animated-gif" src="/images/showcase/trutiles.gif" alt="TruTiles">
   </a>
 </div>
 
