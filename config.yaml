@@ -45,7 +45,7 @@ languages:
         - Name: "Documentation"
           Weight: 3
           Identifier: "docs"
-          URL: "https://doc.red-lang.org/"
+          URL: "https://github.com/red/docs/blob/master/en/SUMMARY.adoc"
         - Name: "Blog"
           Weight: 4
           Identifier: "blog"
