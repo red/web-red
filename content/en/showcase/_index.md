@@ -9,27 +9,45 @@ subtitle: |
 <div class="grid">
   <a href="https://www.redlake-tech.com/products/diagrammar-for-windows/">
     <h3>DiaGrammar</h3>
-    <img src="/images/showcase/diagrammar2.png" alt="DiaGrammar">
+    <img src="/images/showcase/diagrammar2.png" alt="DiaGrammar" usemap="#image1">
+      <map name="image1">
+      <area href="/images/showcase/diagrammar2.png" coords="0,0,400,400" shape="rect">
+    </map>
   </a>
   <a href="https://github.com/planetsizecpu/Cave-In">
     <h3>Cave-In</h3>
-    <img class="animated-gif" src="/images/showcase/cave-in.gif" alt="Cave-In">
+    <img src="/images/showcase/cave-in.gif" alt="Cave-In" usemap="#image2">
+      <map name="image2">
+        <area href="/images/showcase/cave-in.gif" coords="0,0,400,400" shape="rect">
+    </map>
   </a>
   <a href="https://github.com/red/red/tree/master/tests/libRed">
     <h3>LibRed</h3>
-    <img class="animated-gif" src="/images/showcase/pong.gif" alt="libRed">
+    <img src="/images/showcase/pong.gif" alt="libRed" usemap="#image3">
+    <map name="image3">
+      <area href="/images/showcase/pong.gif" coords="0,0,400,400" shape="rect">
+    </map>
   </a>
   <a href="https://github.com/red/code/blob/master/Scripts/mandelbrot-fast.red">
     <h3>Fast Mandelbrot</h3>
-    <img class="animated-gif" src="/images/showcase/fast-mandel.gif" alt="red-codex">
+    <img src="/images/showcase/fast-mandel.gif" alt="red-codex" usemap="#image4">
+    <map name="image4">
+        <area href="/images/showcase/fast-mandel.gif" coords="0,0,400,400" shape="rect">
+    </map>
   </a>
   <a href="https://github.com/red/code/tree/master/Showcase/ballots">
     <h3>Ballots</h3>
-    <img class="animated-gif" src="/images/showcase/ballots2.gif" alt="Ballots">
+    <img src="/images/showcase/ballots2.gif" alt="Ballots" usemap="#image5">
+    <map name="image5">
+        <area href="/images/showcase/ballots2.gif" coords="0,0,400,400" shape="rect">
+    </map>
   </a>
   <a href="https://github.com/GalenIvanov/Graphics-Red/blob/master/TruTiles.red">
     <h3>TruTiles</h3>
-    <img class="animated-gif" src="/images/showcase/trutiles.gif" alt="TruTiles">
+    <img src="/images/showcase/trutiles.gif" alt="TruTiles" usemap="#image6">
+    <map name="image6">
+        <area href="/images/showcase/trutiles.gif" coords="0,0,400,400" shape="rect">
+    </map>
   </a>
 </div>
 
